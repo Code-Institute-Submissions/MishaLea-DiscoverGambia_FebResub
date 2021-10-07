@@ -24,3 +24,20 @@ h1, h2 {
     float: left;
     font-size: 300%;
 }
+
+/* Navigation links*/
+
+#menu {
+    font-size: small;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+}

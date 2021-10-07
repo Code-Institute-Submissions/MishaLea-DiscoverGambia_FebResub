@@ -7,6 +7,20 @@
 }
 
 body {
-    font-family: 'open sans', roboto;
+    font-family: 'open sans', sans-serif;
     font-weight: 600;
+    color: #3c3c3c;
+}
+
+/* headings and logo*/
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #2e3935;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }

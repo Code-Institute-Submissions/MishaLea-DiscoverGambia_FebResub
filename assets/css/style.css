@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 10px;
 }
 
 /* Navigation links*/
@@ -87,10 +88,10 @@ h1, h2 {
     padding-top: 50px;
     padding-left: 5px;
 
-    background-color: rgba(245, 198, 29, .8);
+    background-color: rgba(232, 148, 21, 0.83);
 
     top: 30px;
-    right: 150px;
-    
+    right: 100px;
+
     position: absolute;
 }

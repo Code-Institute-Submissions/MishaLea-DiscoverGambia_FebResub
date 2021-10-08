@@ -53,3 +53,44 @@ h1, h2 {
 .active {
     border-bottom: 2px dotted #19154a;
 }
+
+/*sunset image*/
+
+#sunset-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: rgb(51, 50, 50);
+    font-size: 150%;
+}
+
+#sunset-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/sunset.jpg') no-repeat center center;
+}
+
+#cover-text {
+    font-size: 80%;
+    font-family: Roboto;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 50px;
+    padding-left: 5px;
+
+    background-color: rgba(245, 198, 29, .8);
+
+    top: 30px;
+    right: 150px;
+    
+    position: absolute;
+}

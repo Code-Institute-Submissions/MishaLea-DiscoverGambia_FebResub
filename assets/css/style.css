@@ -105,40 +105,48 @@ h1, h2 {
 #left-top {
     flex: 0 0 50%;
     padding-left: 30px;
-    width: 33%;
+    width: 30%;
     float: left;
     background-color: blue;
 }
 
 #center-top {
-    width: 33%;
+    width: 30%;
     margin: 0 auto;
     background-color: blueviolet;
 }
 
 #right-top {
     padding-right: 15px;
-    width: 33%;
+    width: 30%;
     float: right;
     background-color: brown;
 }
 
 #left-bottom {
     padding-left: 15px;
-    width: 33%;
+    width: 30%;
     float: left;
     background-color: cadetblue;
 }
 
 #center-bottom {
-    width: 33%;
+    width: 30%;
     margin: 0 auto;
     background-color: chartreuse;
 }
 
 #right-bottom {
     padding-bottom: 15px;
-    width: 33%;
+    width: 30%;
     float: right;
     background-color: darkblue;
+}
+
+.info-grouping {
+    width: 40%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }

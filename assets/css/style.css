@@ -192,3 +192,19 @@ footer {
     padding: 5%;
     color:rgb(51, 50, 50)
 }
+
+/*About Gambia*/
+
+#about {
+    background-image: url(../images/cows.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#cows {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}

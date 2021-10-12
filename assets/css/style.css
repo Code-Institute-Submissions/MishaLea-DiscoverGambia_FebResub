@@ -213,20 +213,33 @@ footer {
     color:ivory;
     font-size: 150%;
     letter-spacing: 2px;
+    text-align: center;
 
     background-color: rgba(232, 148, 21, 0.83);
-    width: 500px;
+    width: 100%;
     height: 50px;
 
     padding-top: 5px;
 }
 
-.facts h2 {
+#facts h2 {
     position: relative;
     color: ivory;
 }
 
-.facts h3 {
+#facts h3 {
     position: relative;
     color: ivory;
+    font-size: small;
+}
+
+#facts div {
+    background-color: rgba(34, 24, 29, 0.65);
+    height: 600px;
+    width: 20%;
+    float: left;
+    padding: 30px 30 0 30px;
+    text-align: center;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
 }

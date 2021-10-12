@@ -170,3 +170,25 @@ hr {
 .center-side-info p {
     font-size: 15px;
 }
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: rgba(232, 148, 21, 0.83);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 0%;
+    padding: 5%;
+    color:rgb(51, 50, 50)
+}

@@ -248,6 +248,9 @@ footer {
 
 #how-to-get {
     height: 600px;
+    margin-top: 2%;
+    text-align: center;
+    padding: 5px;
 }
 
 #left-side {
@@ -263,4 +266,26 @@ footer {
 #center-side {
     width: 30%;
     margin: 0 auto;
+}
+
+#left-side-content {
+    width: 95%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+#hr {
+    border-top: 2px solid #3c3c3c;
+    width: 100%;
+    margin: 2px;
+}
+
+#right-side-content {
+    width: 95%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
 }

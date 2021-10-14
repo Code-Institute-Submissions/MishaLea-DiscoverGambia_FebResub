@@ -305,15 +305,16 @@ footer {
     font-size: 75%;
     border-bottom: orange solid 5px;
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 #left-side-content h2 {
     padding-top: 10px;
+    margin-top: 5%;
 }
 
 #right-side-content h2 {
     padding-top: 10px;
+    margin-top: 5%;
 }
 
 #circle-container {

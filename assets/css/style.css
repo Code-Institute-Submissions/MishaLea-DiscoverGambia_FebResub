@@ -289,3 +289,47 @@ footer {
     clear: both;
     margin-bottom: 40px;
 }
+
+#left-side-content p {
+    padding-top: 5%;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 75%;
+    border-bottom: orange solid 5px;
+}
+
+#right-side-content p {
+    padding-top: 5%;
+    margin-top: 5%;
+    text-align: right;
+    font-size: 75%;
+    border-bottom: orange solid 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#left-side-content h2 {
+    padding-top: 10px;
+}
+
+#right-side-content h2 {
+    padding-top: 10px;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: dashed;
+    border-color: orange;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#circle-cover-bg {
+    background: url(../images/plane.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}

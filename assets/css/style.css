@@ -338,22 +338,26 @@ footer {
 /* Things To Do */
 
 #things-to-do {
-    height: 600px;
+    height: 700px;
     padding-top: 5%;
+}
+
+hr {
+    border-top: 3px double orange;
+    width: 100%;
+    margin: 5px;
 }
 
 #left-things {
     padding-top: 60px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-things {
     padding-top: 60px;
     width: 33%;
     float: right;
-    background-color: purple;
 }
 
 #center-things {
@@ -363,23 +367,26 @@ footer {
     background-color: green;
 }
 
-#left-things-bottom {
-    padding-top: 60px;
-    width: 33%;
-    float: left;
-    background-color: yellow;
-}
-
-#right-things-bottom {
-    padding-top: 60px;
-    width: 33%;
+.left-side {
+    width: 60%;
     float: right;
-    background-color: orange;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-#center-things-bottom {
-    padding-top: 60px;
-    width: 33%;
-    margin: 0 auto;
-    background-color: pink;
+.right-side {
+    width: 60%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side h2 {
+    text-align: right;
+}
+
+.right-side h3 {
+    text-align: right;
 }

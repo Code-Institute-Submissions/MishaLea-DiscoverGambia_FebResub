@@ -406,3 +406,9 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
+
+#turtle-image {
+    background: url(../images/turtle_2.jpg) no-repeat;
+    height: 100%;
+    border-radius: 50%;
+}

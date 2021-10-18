@@ -174,7 +174,7 @@ hr {
 /* footer */
 
 footer {
-    height: 200px;
+    height: 300px;
     background-color: rgba(232, 148, 21, 0.83);
 }
 
@@ -418,6 +418,90 @@ hr {
 }
 
 #things-to-do h1 {
+    border-bottom: 2px solid rgba(232, 148, 21, 0.83);
+    padding-bottom: 2%;
+}
+
+/* Cuisine & Culture*/
+
+#cuisine {
+    height: 800px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+hr {
+    border-top: 3px double orange;
+    width: 100%;
+    margin: 5px;
+}
+
+#left-things-bottom {
+    padding-top: 60px;
+    width: 33%;
+    float: left;
+}
+
+#right-things-bottom {
+    padding-top: 60px;
+    width: 33%;
+    float: right;
+}
+
+#center-things-bottom {
+    padding-top: 60px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-side-bottom {
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-bottom {
+    width: 60%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-bottom h2 {
+    text-align: right;
+}
+
+.right-side-bottom h3 {
+    text-align: right;
+}
+
+#title-cuisine {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 250%;
+}
+
+#food-circle {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: dotted;
+    border-color: orange;
+    border-width: 5px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#food-image {
+    background: url(../images/food.jpg) no-repeat;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#cuisine h1 {
     border-bottom: 2px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
 }

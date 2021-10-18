@@ -73,7 +73,7 @@ h1, h2 {
 #sunset-image {
     height: 800px;
     width: 100%;
-    background: url('../images/Sunset.jpg') no-repeat center center;
+    background: url('../images/Sunset.jpg') no-repeat center;
 }
 
 #cover-text {
@@ -211,13 +211,14 @@ footer {
 
 #fun-facts {
     color:ivory;
-    font-size: 150%;
+    font-size: 170%;
     letter-spacing: 2px;
     text-align: center;
 
     background-color: rgba(232, 148, 21, 0.83);
     width: 100%;
     height: 50px;
+    padding-bottom: 5px;
 
     padding-top: 5px;
 }
@@ -225,12 +226,14 @@ footer {
 #facts h2 {
     position: relative;
     color: ivory;
+    padding: 5%;
 }
 
 #facts h3 {
     position: relative;
     color: ivory;
-    font-size: small;
+    font-size: 30px;
+    padding-top: 25px;
 }
 
 #facts div {
@@ -251,6 +254,7 @@ footer {
     margin-top: 2%;
     text-align: center;
     padding: 5px;
+    font-size: 120%;
 }
 
 #left-side {
@@ -411,4 +415,9 @@ hr {
     background: url(../images/turtle_2.jpg) no-repeat;
     height: 100%;
     border-radius: 50%;
+}
+
+#things-to-do h1 {
+    border-bottom: 2px solid rgba(232, 148, 21, 0.83);
+    padding-bottom: 2%;
 }

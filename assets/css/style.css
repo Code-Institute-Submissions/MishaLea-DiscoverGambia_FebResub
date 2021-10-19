@@ -61,6 +61,7 @@ h1, h2 {
     height: 800px;
     width: 100%;
     overflow: hidden;
+    padding-top: 1%;
 
     position: relative;
 }
@@ -68,12 +69,14 @@ h1, h2 {
 #cover-text, #cover-text h2 {
     color: rgb(51, 50, 50);
     font-size: 150%;
+    text-align: center;
 }
 
 #sunset-image {
     height: 800px;
     width: 100%;
     background: url('../images/Sunset.jpg') no-repeat center;
+    position: absolute;
 }
 
 #cover-text {
@@ -83,9 +86,9 @@ h1, h2 {
     letter-spacing: 3px;
 
     width: 300px;
-    height: 100px;
+    height: 95px;
 
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 5px;
 
     background-color: rgba(232, 148, 21, 0.83);
@@ -176,6 +179,8 @@ hr {
 footer {
     height: 300px;
     background-color: rgba(232, 148, 21, 0.83);
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .social-networks {
@@ -187,16 +192,16 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
+    font-size: 250%;
     margin: 0%;
-    padding: 5%;
+    padding: 7%;
     color:rgb(51, 50, 50)
 }
 
 /*About Gambia*/
 
 #about {
-    background-image: url(../images/cows.jpg);
+    
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -204,41 +209,43 @@ footer {
 }
 
 #cows {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
+    padding-top: 1%;
 }
 
 #fun-facts {
     color:ivory;
-    font-size: 170%;
+    font-size: 200%;
     letter-spacing: 2px;
     text-align: center;
-
     background-color: rgba(232, 148, 21, 0.83);
+    
     width: 100%;
-    height: 50px;
-    padding-bottom: 5px;
+    height: 100px;
+    padding-bottom: 0;
 
-    padding-top: 5px;
+    padding-top: 35px;
 }
 
 #facts h2 {
     position: relative;
     color: ivory;
     padding: 5%;
+    font-size: 25px;
 }
 
 #facts h3 {
     position: relative;
     color: ivory;
-    font-size: 30px;
+    font-size: 15px;
     padding-top: 25px;
 }
 
 #facts div {
     background-color: rgba(59, 19, 39, 0.65);
-    height: 600px;
+    height: 300px;
     width: 20%;
     float: left;
     padding: 30px 30 0 30px;
@@ -251,7 +258,7 @@ footer {
 
 #how-to-get {
     height: 600px;
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     padding: 5px;
     font-size: 120%;
@@ -338,6 +345,63 @@ footer {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Why Gambia */
+
+#reasons {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#reasons-why {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#why-gambia {
+    color:ivory;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(232, 148, 21, 0.83);
+    
+    width: 100%;
+    height: 100px;
+    padding-bottom: 0;
+
+    padding-top: 35px;
+}
+
+#reasons-section h2 {
+    position: relative;
+    color: ivory;
+    padding: 5%;
+    font-size: 25px;
+}
+
+#reasons-section h3 {
+    position: relative;
+    color: ivory;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#reasons-section div {
+    background-color: rgba(59, 19, 39, 0.65);
+    height: 300px;
+    width: 20%;
+    float: left;
+    padding: 30px 30 0 30px;
+    text-align: center;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
+}
+
 
 /* Things To Do */
 

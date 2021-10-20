@@ -177,14 +177,15 @@ hr {
 /* footer */
 
 footer {
-    height: 300px;
+    height: 150px;
     background-color: rgba(232, 148, 21, 0.83);
-    margin-bottom: 0;
-    padding: 0;
+    padding-top: 2%;
+            
 }
 
 .social-networks {
     text-align: center;
+    letter-spacing: 40px;
 }
 
 .social-networks > li {
@@ -192,10 +193,11 @@ footer {
 }
 
 .social-networks i {
-    font-size: 250%;
-    margin: 0%;
-    padding: 7%;
-    color:rgb(51, 50, 50)
+    font-size: 280%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgb(51, 50, 50);
 }
 
 /*About Gambia*/

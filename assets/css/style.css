@@ -581,3 +581,27 @@ hr {
     border-bottom: 2px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
 }
+
+/* Contact Us */
+
+.register-section {  /*2nd class*/
+    clear: both;
+    background: url(../images/group.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    color: black;
+    background-color: rgba(59, 19, 39, 0.6);
+}
+
+.contact-us-section {
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+
+.register-section h2 h3 {
+    
+}
+
+

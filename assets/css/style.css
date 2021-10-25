@@ -656,6 +656,121 @@ hr {
         height: 10%;
         font-size: 20px;
     }
+
+    #how-to-get {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    #how-to-get p {
+        font-size: 60%;
+    }
+
+    #how-to-get h2 {
+        font-size: 95%;
+    }
+
+    #how-to-title {
+        margin-bottom: 1px;
+        margin-bottom: 1px;
+        border-top: orange solid 3px;
+        border-bottom: orange solid 3px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 35px;
+    }
+
+    #left-side, #right-side {
+        width: 100%;
+        float: left;
+        padding: 0;
+        border-bottom: none;
+    }
+
+    #center-side {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #things-to-do {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #things-to-do h3  {
+        font-size: 60%;
+    }
+
+    #things-to-do {
+        font-size: 95%;
+    }
+
+    #title {
+        margin-bottom: 1px;
+        margin-bottom: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 35px;
+    }
+
+    #left-things, #right-things {
+        width: 100%;
+        float: left;
+        padding: 0;
+        border-bottom: none;
+    }
+
+    #center-things {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #cuisine {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #cuisine h3  {
+        font-size: 60%;
+    }
+
+    #cuisine {
+        font-size: 95%;
+    }
+
+    #title-cuisine {
+        margin-bottom: 1px;
+        margin-bottom: 1px;
+        border-top: orange solid 3px;
+        border-bottom: orange solid 3px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 35px;
+    }
+
+    #left-things-bottom, #right-things-bottom {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-things-bottom {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-bottom: 2px;
+        padding-bottom: 2px;
+    }
+
+    
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -704,7 +819,6 @@ hr {
         height: 250px;
         padding: 0;
         float: left;
-        padding: 0;
     }
 
     #cows h2, #reasons h2 {
@@ -720,5 +834,9 @@ hr {
     #fun-facts, #why-gambia {
         height: 10%;
         font-size: 20px;
+    }
+
+    #reasons {
+        margin-bottom: 0;
     }
 }

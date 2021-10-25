@@ -627,6 +627,12 @@ hr {
         padding: 0;
         float: left;
     }
+
+    footer, .social-networks {
+        display: inline-block;
+        width: 100%;
+        font-size: 15px;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -641,5 +647,31 @@ hr {
     }
     #logo {
         font-size: 45px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+    #practical-info {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about, .right-about, .center-about {
+        width: inherit;
+        text-align: center;
+    }
+
+    .left-side-info h2, .right-side-info h2, .center-side-info h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .left-side-info p, .right-side-info p, .center-side-info p {
+        text-align: center;
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }

@@ -699,10 +699,11 @@ hr {
         width: 80%;
         height: 1200px;
         margin: 0 auto;
+        padding-bottom: 2px;
     }
 
     #things-to-do h3  {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     #things-to-do {
@@ -712,9 +713,10 @@ hr {
     #title {
         margin-bottom: 1px;
         margin-bottom: 1px;
+        border-bottom: orange solid 3px;
         padding-top: 1px;
         padding-bottom: 1px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #left-things, #right-things {
@@ -735,10 +737,11 @@ hr {
         width: 80%;
         height: 1200px;
         margin: 0 auto;
+        padding-top: 2px;
     }
 
     #cuisine h3  {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     #cuisine {
@@ -748,11 +751,10 @@ hr {
     #title-cuisine {
         margin-bottom: 1px;
         margin-bottom: 1px;
-        border-top: orange solid 3px;
         border-bottom: orange solid 3px;
         padding-top: 1px;
         padding-bottom: 1px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #left-things-bottom, #right-things-bottom {

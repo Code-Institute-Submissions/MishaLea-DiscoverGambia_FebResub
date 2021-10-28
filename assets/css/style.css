@@ -210,14 +210,14 @@ footer {
     width: 100%;
 }
 
-#cows {
-    height: 400px;
+#about-gambia-top {
+    height: 500px;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
 }
 
-#fun-facts {
+#good-to-know {
     color:ivory;
     font-size: 200%;
     letter-spacing: 2px;
@@ -225,7 +225,7 @@ footer {
     background-color: rgba(232, 148, 21, 0.83);
     
     width: 100%;
-    height: 100px;
+    height: 80px;
     padding-bottom: 0;
 
     padding-top: 35px;
@@ -242,12 +242,12 @@ footer {
     position: relative;
     color: ivory;
     font-size: 15px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 #facts div {
     background-color: rgba(59, 19, 39, 0.6);
-    height: 300px;
+    height: 700px;
     width: 20%;
     float: left;
     padding: 30px 30px 0 30px;
@@ -383,7 +383,7 @@ footer {
     background-color: rgba(232, 148, 21, 0.83);
     
     width: 100%;
-    height: 100px;
+    height: 80px;
     padding-bottom: 0;
 
     padding-top: 35px;
@@ -405,7 +405,7 @@ footer {
 
 #reasons-section div {
     background-color: rgba(59, 19, 39, 0.6);
-    height: 600px;
+    height: 700px;
     width: 20%;
     float: left;
     padding: 30px 30px 0 30px;
@@ -669,7 +669,14 @@ hr {
         font-size: 15px;
     }
 
-    #cows > div, #reasons > div {
+    /* About Gambia - Good to know */
+
+    #about-gambia-top {
+        height: 500px;
+        margin-bottom: 5px;
+    }
+
+    #about-gambia-top > div {
         width: 100%;
         clear: both;
         height: 300px;
@@ -677,26 +684,106 @@ hr {
         float: left;
     }
 
-    #cows h2, #reasons h2 {
+    #about-gambia-top h2 {
         font-size: 17px;
+        padding: 10px 0 10px 0;
     }
 
-    #cows h3, #reasons h3 {
-        font-size: 12px;
+    #about-gambia-top h3 {
+        font-size: 15px;
         padding: 0;
         margin: 0;
         height: 300px;
     }
 
-    #fun-facts, #why-gambia {
-        height: 10%;
-        font-size: 20px;
+    #good-to-know {
+        height: 5%;
+        font-size: 15px;
     }
+
+    #facts h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+
+    #facts h2 {
+        margin-top: 0;
+        padding-top: 0;
+        border-bottom: 2px solid;
+        margin-bottom: 20%;
+        padding-bottom: 20%;
+        font-size: 14px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+     /* Reasons to Discover Gambia*/
+
+     #reasons h2 {
+        font-size: 17px;
+        padding: 10px 0 10px 0;
+    }
+
+    #reasons h3 {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        height: 200px;
+    }
+
+     #reasons {
+         height: 500px;
+         margin-bottom: 5px;
+     }
+
+     #reasons > div {
+        width: 100%;
+        clear: both;
+        height: 300px;
+        padding: 0;
+        float: left;
+    }
+
+     #reasons-section {
+        width: 100%;
+        clear: both;
+        height: 700px;
+        padding: 0;
+        float: left;
+    }
+
+    #reasons-section h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 5%;
+        padding-top: 5%;
+    }
+
+    #reasons-section h2 {
+        margin-top: 0;
+        padding-top: 0;
+        border-bottom: 2px solid;
+        margin-bottom: 20%;
+        padding-bottom: 20%;
+        font-size: 13px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    #why-gambia {
+        height: 5%;
+        font-size: 15px;
+    }
+
+    /* How To Get There */
 
     #how-to-get {
         width: 80%;
-        height: 1200px;
+        height: 1100px;
         margin: 0 auto;
+        padding-top: 5%;
     }
     
     #how-to-get p {
@@ -710,8 +797,7 @@ hr {
     #how-to-title {
         margin-bottom: 1px;
         margin-bottom: 1px;
-        border-top: orange solid 3px;
-        border-bottom: orange solid 3px;
+        background-color: orange;
         padding-top: 1px;
         padding-bottom: 1px;
         font-size: 35px;
@@ -730,6 +816,8 @@ hr {
         float: left;
         padding: 0;
     }
+
+    /* Things To Do*/
 
     #things-to-do {
         width: 80%;
@@ -810,8 +898,6 @@ hr {
 
 }
 
-
-
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
@@ -852,40 +938,88 @@ hr {
         margin: 0 auto;
     }
 
-    #cows > div, #reasons > div {
+    /* About Gambia - Good to know*/
+
+    #about-gambia-top {
+        height: 400px;
+    }
+
+    #about-gambia-top > div {
         width: 100%;
         clear: both;
-        height: 250px;
+        height: 600px;
         padding: 0;
         float: left;
     }
 
-    #cows h2, #reasons h2 {
-        font-size: 17px;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 1px;
+    #about-gambia-top h2 {
+        font-size: 25px;
     }
 
-    #cows h3, #reasons h3 {
+    #about-gambia-top h3 {
         font-size: 12px;
         padding: 0;
         margin: 0;
         width: 100%;
-        font-stretch: expanded;
+        font-size: 20%;
     }
 
-    #fun-facts, #why-gambia {
+    #good-to-know {
         height: 10%;
         font-size: 20px;
     }
 
-    #reasons {
-        margin-bottom: 0;
-    }
-
     #facts h2 {
         font-size: 10px;
-        margin-top: 0ch;
     }
+
+    #facts h3 {
+        font-size: 10px;
+    }
+
+    /* How To Get There */
+
+    #how-to-title {
+        margin-bottom: 1px;
+        margin-bottom: 1px;
+        background-color: orange;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 35px;
+    }
+
+    /* Reasons to Discover Gambia */
+
+    #reasons > div {
+        width: 100%;
+        clear: both;
+        height: 700px;
+        padding: 0;
+        float: left;
+    }
+
+    #reasons {
+        height: 400px;
+    }
+    
+    #reasons h2 {
+        font-size: 25px;
+    }
+
+    #reasons h3 {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 20%;
+    }
+
+    #reasons-section h2 {
+        font-size: 10px;
+    }
+
+    #reasons-section h3 {
+        font-size: 10px;
+    }
+
 }

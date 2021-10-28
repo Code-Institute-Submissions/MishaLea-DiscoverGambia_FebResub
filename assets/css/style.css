@@ -234,8 +234,8 @@ footer {
 #facts h2 {
     position: relative;
     color: ivory;
-    padding: 5%;
-    font-size: 25px;
+    padding: 0;
+    font-size: 20px;
 }
 
 #facts h3 {
@@ -361,7 +361,7 @@ footer {
 /* Why Gambia */
 
 #reasons {
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 1%;
@@ -392,8 +392,8 @@ footer {
 #reasons-section h2 {
     position: relative;
     color: ivory;
-    padding: 5%;
-    font-size: 25px;
+    padding: 2%;
+    font-size: 20px;
 }
 
 #reasons-section h3 {
@@ -405,7 +405,7 @@ footer {
 
 #reasons-section div {
     background-color: rgba(59, 19, 39, 0.6);
-    height: 300px;
+    height: 600px;
     width: 20%;
     float: left;
     padding: 30px 30px 0 30px;
@@ -672,7 +672,7 @@ hr {
     #cows > div, #reasons > div {
         width: 100%;
         clear: both;
-        height: 150px;
+        height: 300px;
         padding: 0;
         float: left;
     }
@@ -685,6 +685,7 @@ hr {
         font-size: 12px;
         padding: 0;
         margin: 0;
+        height: 300px;
     }
 
     #fun-facts, #why-gambia {
@@ -861,12 +862,17 @@ hr {
 
     #cows h2, #reasons h2 {
         font-size: 17px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 1px;
     }
 
     #cows h3, #reasons h3 {
         font-size: 12px;
         padding: 0;
         margin: 0;
+        width: 100%;
+        font-stretch: expanded;
     }
 
     #fun-facts, #why-gambia {
@@ -876,5 +882,10 @@ hr {
 
     #reasons {
         margin-bottom: 0;
+    }
+
+    #facts h2 {
+        font-size: 10px;
+        margin-top: 0ch;
     }
 }

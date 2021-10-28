@@ -474,6 +474,7 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-size: 250%;
+    background-color: orange;
 }
 
 #turtle-circle {
@@ -558,6 +559,7 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-size: 250%;
+    background-color: orange;
 }
 
 #food-circle {
@@ -835,26 +837,28 @@ hr {
     }
 
     #title {
-        margin-bottom: 1px;
-        margin-bottom: 1px;
+        margin-bottom: 10px;
+        margin-top: 50px;
         border-bottom: orange solid 3px;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        border-top: orange solid 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: 30px;
+        background-color: white;
+        clear: both;
     }
 
     #left-things, #right-things {
         width: 100%;
         float: left;
         padding: 0;
-        border-bottom: none;
     }
 
     #center-things {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0;
+        padding-bottom: 10%
     }
 
     #cuisine {
@@ -862,24 +866,24 @@ hr {
         height: 1200px;
         margin: 0 auto;
         padding-top: 2px;
+        font-size: 95%;
     }
 
     #cuisine h3  {
         font-size: 70%;
     }
 
-    #cuisine {
-        font-size: 95%;
-    }
-
     #title-cuisine {
-        margin-bottom: 1px;
-        margin-bottom: 1px;
+        margin-bottom: 50px;
+        margin-top: 50px;
         border-bottom: orange solid 3px;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        border-top: orange solid 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: 30px;
-    }
+        background-color: white;
+        clear: both;
+    } 
 
     #left-things-bottom, #right-things-bottom {
         width: 100%;
@@ -892,7 +896,7 @@ hr {
         width: 100%;
         float: left;
         padding: 0;
-        margin-bottom: 2px;
+        margin-bottom: 50px;
         padding-bottom: 2px;
     }
 
@@ -905,7 +909,7 @@ hr {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         line-height: 25px;
     }
     #logo {

@@ -1369,4 +1369,40 @@ hr {
         border-radius: 50%;
         margin: 0 auto;
     }
+
+    #register-section {
+        margin-top: 30%;
+    }
+
+    .register-section h2 {
+        padding-bottom: 5px;
+        font-size: 5px;
+        margin-top: 10%;
+    }
+
+    /* Contact Us*/
+
+    #contact h2 {
+        font-size: 20px;
+    }
+
+    #contact-1 > label {
+        margin-bottom: 5px;
+        font-size: 10px;
+        display: table;
+    }
+
+    #contact-2 {
+        margin-bottom: 5%;
+        text-align: left;
+        word-spacing: 30%;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    * {
+        margin-bottom: 10%;
+        padding: 0;
+        border: none;
+    }
 }

@@ -590,7 +590,7 @@ hr {
 
 #group-image {
     background-repeat: no-repeat center center;
-    viewport-fit: initial;
+    display: flex;
 }
 
 .contact-us-section {
@@ -609,6 +609,11 @@ hr {
     height: 50%;
 }
 
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 #contact-1 {
     margin-bottom: 5px;
     text-align: center;
@@ -620,10 +625,10 @@ hr {
 
 #contact-2 {
     
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     text-align: center;
-    word-spacing: 20%;
-    line-height: 10%;
+    word-spacing: 30%;
+    line-height: 20%;
     font-size: 25px;
 
 }
@@ -904,14 +909,14 @@ hr {
 
     /* Contact Us */
 
-.register-section {  /*2nd class*/
-    /* clear: both;
+.register-section {  2nd class*/
+    clear: both;
     background-size: cover;
     background-position: center;
     height: 800px;
     width: 100%;
     color: black;
-    background-color: rgba(59, 19, 39, 0.6); */
+    background-color: rgba(59, 19, 39, 0.6);
 }
 
 #group-image {

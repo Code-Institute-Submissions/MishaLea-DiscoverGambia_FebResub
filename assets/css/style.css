@@ -1310,4 +1310,63 @@ hr {
         font-size: 20%;
     }
 
+    /* Things to do */
+
+    #title {
+    margin-bottom: 10px;
+    margin-top: 80px;
+    border-bottom: orange solid 3px;
+    border-top: orange solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    background-color: white;
+    clear: both;
+    }
+
+    #things-to-do {
+        font-size: 70%;
+    }
+
+    #turtle-circle {
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        border-style: dotted;
+        border-color: orange;
+        border-width: 5px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #title-cuisine {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-bottom: orange solid 3px;
+        border-top: orange solid 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        background-color: white;
+        clear: both;
+    }
+
+    #cuisine {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+        padding-top: 2px;
+        font-size: 70%;
+    }
+
+    #food-circle {
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        border-style: dotted;
+        border-color: orange;
+        border-width: 5px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
 }

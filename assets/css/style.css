@@ -6,6 +6,7 @@
     border: none;
 }
 
+
 body {
     font-family: 'open sans', sans-serif;
     font-weight: 600;
@@ -58,7 +59,7 @@ h1, h2 {
 /*sunset image*/
 
 #sunset-outer {
-    height: 800px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
@@ -73,9 +74,9 @@ h1, h2 {
 }
 
 #sunset-image {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background: url('../images/Sunset.jpg') no-repeat center;
+    background: url('../images/Sunset.jpg') no-repeat center center;
     position: absolute;
 }
 
@@ -586,15 +587,10 @@ hr {
 
 /* Contact Us */
 
-.register-section {  /*2nd class*/
-    clear: both;
-    background: url(../images/group.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    width: 100%;
-    color: black;
-    background-color: rgba(59, 19, 39, 0.6);
+
+#group-image {
+    background-repeat: no-repeat center center;
+    viewport-fit: initial;
 }
 
 .contact-us-section {
@@ -609,38 +605,34 @@ hr {
 
 #contact {
     background-color: rgba(232, 148, 21, 0.83);
-    width: 30%;
-    height: 35%;
+    width: 100%;
+    height: 50%;
 }
 
 #contact-1 {
     margin-bottom: 5px;
-    text-align: start;
+    text-align: center;
+    word-spacing: 5%;
+    line-height: 5%;
+    font-size: 25px;
+    margin-bottom: 2.5%;
 }
 
 #contact-2 {
     
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    word-spacing: 20%;
+    line-height: 10%;
+    font-size: 25px;
+
 }
 
-#contact-3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-#contact-5 {
-    margin-top: 10px;
-    width: 100%;
-}
-
-#contact-6 {
-    font-size: 40px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    float: left;
-    color: ivory;
-    background: grey;
-    clear: both;
+#submit {
+    font-size: 30px;
+    border: grey 2px solid;
+    margin-left: 30px;
+    text-align: center;
 }
 
 #submit:hover {
@@ -913,14 +905,22 @@ hr {
     /* Contact Us */
 
 .register-section {  /*2nd class*/
-    clear: both;
-    background: url(../images/group.jpg);
+    /* clear: both;
     background-size: cover;
     background-position: center;
     height: 800px;
     width: 100%;
     color: black;
-    background-color: rgba(59, 19, 39, 0.6);
+    background-color: rgba(59, 19, 39, 0.6); */
+}
+
+#group-image {
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    clear: both;
+    background-position: center;
+    height: 600px;
+    width: 100%;
 }
 
 .contact-us-section {
@@ -985,6 +985,146 @@ hr {
     #cover-text {
         left: 0;
     }
+    #practical-info {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about, .right-about, .center-about {
+        width: inherit;
+        text-align: center;
+    }
+
+    .left-side-info h2, .right-side-info h2, .center-side-info h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .left-side-info p, .right-side-info p, .center-side-info p {
+        text-align: center;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* About Gambia - Good to know*/
+
+    #about-gambia-top {
+        height: 400px;
+    }
+
+    #about-gambia-top > div {
+        width: 100%;
+        clear: both;
+        height: 600px;
+        padding: 0;
+        float: left;
+    }
+
+    #about-gambia-top h2 {
+        font-size: 25px;
+    }
+
+    #about-gambia-top h3 {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 20%;
+    }
+
+    #good-to-know {
+        height: 10%;
+        font-size: 20px;
+    }
+
+    #facts h2 {
+        font-size: 10px;
+    }
+
+    #facts h3 {
+        font-size: 10px;
+    }
+
+    /* How To Get There */
+
+    #how-to-title {
+        margin-bottom: 1px;
+        margin-bottom: 1px;
+        background-color: orange;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 35px;
+    }
+
+    /* Reasons to Discover Gambia */
+
+    #reasons > div {
+        width: 100%;
+        clear: both;
+        height: 700px;
+        padding: 0;
+        float: left;
+    }
+
+    #reasons {
+        height: 400px;
+    }
+    
+    #reasons h2 {
+        font-size: 25px;
+    }
+
+    #reasons h3 {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        font-size: 20%;
+    }
+
+    #reasons-section h2 {
+        font-size: 10px;
+    }
+
+    #reasons-section h3 {
+        font-size: 10px;
+    }
+
+}
+
+/* For small screen sizes from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+    #menu {
+        clear: left;
+        float: left;
+        position: absolute;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    #logo {
+        font-size: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #sunset-image {
+       width: 320px;
+       margin-top: 20px;
+    }
+
+    #sunset-outer {
+        width: 320px
+    }
+
+
     #practical-info {
         width: 90%;
         height: 1200px;

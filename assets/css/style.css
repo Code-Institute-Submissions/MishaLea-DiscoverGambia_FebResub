@@ -1146,6 +1146,11 @@ hr {
         font-size: 10px;
     }
 
+    #contact-1 {
+        display: table;
+        line-break: normal;
+    }
+
 }
 
 /* For small screen sizes from 320px wide and down */

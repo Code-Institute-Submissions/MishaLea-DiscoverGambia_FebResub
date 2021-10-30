@@ -1245,8 +1245,9 @@ hr {
     }
 
     footer {
-        height: 50%;
-        padding-bottom: 5px;
+        height: 100%;
+        padding: none;
+        margin: none;
     }
 
     /* About Gambia - Good to know*/
@@ -1425,6 +1426,8 @@ hr {
 
     #contact h2 {
         font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #contact-1>label {
@@ -1452,7 +1455,7 @@ hr {
         background-size: cover;
         clear: both;
         background-position: center;
-        height: auto;
+        height: 124%;
         width: 100%;
         margin-top: 5%;
     }

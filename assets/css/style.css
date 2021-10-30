@@ -593,13 +593,14 @@ hr {
 
 
 #group-image {
-    background-repeat: no-repeat center center;
+    background-repeat: no-repeat;
     display: flex;
 }
 
 .contact-us-section {
     margin-bottom: 5px;
     padding-top: 5%;
+    background-color: orange;
 }
 
 .register-section h2 {
@@ -621,7 +622,7 @@ hr {
 
 #contact-1 {
     text-align: center;
-    word-spacing: 5%;
+    word-spacing: 5px;
     line-height: 5%;
     font-size: 25px;
     margin-bottom: 2.5%;
@@ -632,7 +633,7 @@ hr {
 
     margin-bottom: 5%;
     text-align: center;
-    word-spacing: 50%;
+    word-spacing: 50px;
     line-height: 20%;
     font-size: 25px;
     display: inline;
@@ -952,7 +953,7 @@ hr {
 
     .register-section {
         clear: both;
-        background-position: center;
+        background-position: top;
         height: 800px;
         width: 100%;
         color: black;
@@ -960,7 +961,7 @@ hr {
     }
 
     #group-image {
-        background-repeat: no-repeat center center;
+        background-repeat: no-repeat;
         background-size: cover;
         clear: both;
         background-position: center;
@@ -1008,7 +1009,7 @@ hr {
         display: inline-table;
         float: right;
         color: ivory;
-        background: grey;
+        background: black;
         margin: 0 auto;
     }
 
@@ -1246,8 +1247,8 @@ hr {
 
     footer {
         height: 100%;
-        padding: none;
-        margin: none;
+        padding: 0;
+        margin: 0;
     }
 
     /* About Gambia - Good to know*/
@@ -1439,19 +1440,19 @@ hr {
     #contact-2 {
         margin-bottom: 5%;
         text-align: left;
-        word-spacing: 30%;
+        word-spacing: 30px;
         line-height: 20px;
         font-size: 15px;
     }
 
     * {
         margin-bottom: 10%;
-        padding: 1;
+        padding: 1px;
         border: none;
     }
 
     #group-image {
-        background-repeat: no-repeat center center;
+        background-repeat: no-repeat;
         background-size: cover;
         clear: both;
         background-position: center;

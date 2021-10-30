@@ -49,3 +49,12 @@ As The Gambia is a third world country, and not much external marketing is organ
 This is purely for those wanting to know more about either Experiences or About Gambia in more detail. I chose for it to be an 'either/or' option and the comment section is where the user can add their question/query before submitting. 
 ![Contact-us-form-image] (https://github.com/MishaLea/DiscoverGambia/blob/main/assets/images/Contact%20us%20page%20-%20bottom%20section.jpg)
 The picture below the contact form i thought was appropriate due to it being a welcoming/inviting image that would encourage the user to get in touch.       
+
+
+**1200px and 950px Screen Size**
+Adjusting the sturcture for each of the pages was ok except for the contact us page. For this i had to adjust the contact form display to 'table' but even with that it didn't seem to fit well. 
+All other aspects of the site were not as complicated to adjust. 
+
+**320px screen size**
+This proved more difficult to arrange for all pages. Especially the contact us page. Originally i had the picture as an 'image' element but due it not fitting correctly on the smaller size i changed it to a div and added the image through css. This helped the adjustment with the smaller screen size. 
+The other issue i had was with the About Gambia sections. For larger screen sizes the columns were vertical however for the smaller sceen it wasn't possible to arrange, so i tried to set up horizontally. This had its own issues because only the title was showing rather than the brief wording underneath.  

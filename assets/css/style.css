@@ -15,7 +15,8 @@ body {
 
 /* headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     color: #2e3935;
@@ -34,7 +35,8 @@ h1, h2 {
     font-size: medium;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -68,7 +70,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: rgb(51, 50, 50);
     font-size: 150%;
     text-align: center;
@@ -136,7 +139,7 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .left-side-info p {
@@ -148,7 +151,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .right-side-info h2 {
@@ -182,7 +185,7 @@ footer {
     height: 150px;
     background-color: rgba(232, 148, 21, 0.83);
     padding-top: 2%;
-            
+
 }
 
 .social-networks {
@@ -190,7 +193,7 @@ footer {
     letter-spacing: 40px;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -199,13 +202,13 @@ footer {
     margin-top: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color:rgb(51, 50, 50);
+    color: rgb(51, 50, 50);
 }
 
 /*About Gambia*/
 
 #about {
-    
+
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -220,12 +223,12 @@ footer {
 }
 
 #good-to-know {
-    color:ivory;
+    color: ivory;
     font-size: 200%;
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
-    
+
     width: 100%;
     height: 80px;
     padding-bottom: 0;
@@ -266,7 +269,7 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 120%;
-    
+
 }
 
 #how-to-title {
@@ -280,7 +283,7 @@ footer {
 
 #left-side {
     width: 30%;
-    float: left; 
+    float: left;
 }
 
 #right-side {
@@ -378,12 +381,12 @@ footer {
 }
 
 #why-gambia {
-    color:ivory;
+    color: ivory;
     font-size: 200%;
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
-    
+
     width: 100%;
     height: 80px;
     padding-bottom: 0;
@@ -626,13 +629,13 @@ hr {
 }
 
 #contact-2 {
-    
+
     margin-bottom: 5%;
     text-align: center;
     word-spacing: 50%;
     line-height: 20%;
     font-size: 25px;
-    display:inline; 
+    display: inline;
 
 }
 
@@ -672,17 +675,18 @@ hr {
     }
 
     #practical-info {
-        width: 70%;   
+        width: 70%;
         height: 1200px;
-        margin: 0 auto;   
+        margin: 0 auto;
     }
 
     #welcome {
-       padding: 30px 0;
-       margin: 60px;
+        padding: 30px 0;
+        margin: 60px;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -695,7 +699,8 @@ hr {
         float: left;
     }
 
-    footer, .social-networks {
+    footer,
+    .social-networks {
         display: inline-block;
         width: 100%;
         font-size: 15px;
@@ -708,7 +713,7 @@ hr {
         margin-bottom: 5px;
     }
 
-    #about-gambia-top > div {
+    #about-gambia-top>div {
         width: 100%;
         clear: both;
         height: 300px;
@@ -751,9 +756,9 @@ hr {
         margin-right: 0%;
     }
 
-     /* Reasons to Discover Gambia*/
+    /* Reasons to Discover Gambia*/
 
-     #reasons h2 {
+    #reasons h2 {
         font-size: 17px;
         padding: 10px 0 10px 0;
     }
@@ -765,12 +770,12 @@ hr {
         height: 200px;
     }
 
-     #reasons {
-         height: 500px;
-         margin-bottom: 5px;
-     }
+    #reasons {
+        height: 500px;
+        margin-bottom: 5px;
+    }
 
-     #reasons > div {
+    #reasons>div {
         width: 100%;
         clear: both;
         height: 300px;
@@ -778,7 +783,7 @@ hr {
         float: left;
     }
 
-     #reasons-section {
+    #reasons-section {
         width: 100%;
         clear: both;
         height: 700px;
@@ -817,7 +822,7 @@ hr {
         margin: 0 auto;
         padding-top: 5%;
     }
-    
+
     #how-to-get p {
         font-size: 60%;
     }
@@ -835,7 +840,8 @@ hr {
         font-size: 35px;
     }
 
-    #left-side, #right-side {
+    #left-side,
+    #right-side {
         width: 100%;
         float: left;
         padding: 0;
@@ -858,7 +864,7 @@ hr {
         padding-bottom: 2px;
     }
 
-    #things-to-do h3  {
+    #things-to-do h3 {
         font-size: 70%;
     }
 
@@ -878,7 +884,8 @@ hr {
         clear: both;
     }
 
-    #left-things, #right-things {
+    #left-things,
+    #right-things {
         width: 100%;
         float: left;
         padding: 0;
@@ -899,7 +906,7 @@ hr {
         font-size: 95%;
     }
 
-    #cuisine h3  {
+    #cuisine h3 {
         font-size: 70%;
     }
 
@@ -913,9 +920,10 @@ hr {
         font-size: 30px;
         background-color: white;
         clear: both;
-    } 
+    }
 
-    #left-things-bottom, #right-things-bottom {
+    #left-things-bottom,
+    #right-things-bottom {
         width: 100%;
         float: left;
         padding: 0;
@@ -933,67 +941,67 @@ hr {
     /* Contact Us */
 
 
-.register-section {
-    clear: both;
-    background-position: center;
-    height: 800px;
-    width: 100%;
-    color: black;
-    background-color: rgba(59, 19, 39, 0.6);
-}
+    .register-section {
+        clear: both;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+        color: black;
+        background-color: rgba(59, 19, 39, 0.6);
+    }
 
-#group-image {
-    background-repeat: no-repeat center center;
-    background-size: cover;
-    clear: both;
-    background-position: center;
-    height: 650px;
-    width: 100%;
-    margin-top: 5%;
-}
+    #group-image {
+        background-repeat: no-repeat center center;
+        background-size: cover;
+        clear: both;
+        background-position: center;
+        height: 650px;
+        width: 100%;
+        margin-top: 5%;
+    }
 
-.contact-us-section {
-    margin-bottom: 5px;
-    padding-top: 5%;
-}
+    .contact-us-section {
+        margin-bottom: 5px;
+        padding-top: 5%;
+    }
 
-.register-section h2 {
-    padding-bottom: 5px;
-    font-size: 5px;
-}
+    .register-section h2 {
+        padding-bottom: 5px;
+        font-size: 5px;
+    }
 
 
-#contact h2 {
-    font-size: 25px;
-    border-bottom: 5px grey solid;
-}
+    #contact h2 {
+        font-size: 25px;
+        border-bottom: 5px grey solid;
+    }
 
-#contact-1 {
-    margin-bottom: 5px;
-    font-size: 20px;
-    display: table;
-    word-spacing: 5px;
-    
-}
+    #contact-1 {
+        margin-bottom: 5px;
+        font-size: 20px;
+        display: table;
+        word-spacing: 5px;
 
-#contact-2 {
-    margin-bottom: 5px;
-    font-size: 20px;
-    display: table;
-    word-spacing: 5px;
-    margin-right: 5px;
-}
+    }
 
-#submit {
-    font-size: 25px;
-    letter-spacing: 2px;
-    margin-top: 5%;
-    display: inline-table;
-    float: right;
-    color: ivory;
-    background: grey;
-    margin: 0 auto;
-}
+    #contact-2 {
+        margin-bottom: 5px;
+        font-size: 20px;
+        display: table;
+        word-spacing: 5px;
+        margin-right: 5px;
+    }
+
+    #submit {
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-top: 5%;
+        display: inline-table;
+        float: right;
+        color: ivory;
+        background: grey;
+        margin: 0 auto;
+    }
 
 }
 
@@ -1007,6 +1015,7 @@ hr {
         margin-bottom: 50px;
         line-height: 25px;
     }
+
     #logo {
         font-size: 45px;
     }
@@ -1014,24 +1023,31 @@ hr {
     #cover-text {
         left: 0;
     }
+
     #practical-info {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about, .right-about, .center-about {
+    .left-about,
+    .right-about,
+    .center-about {
         width: inherit;
         text-align: center;
     }
 
-    .left-side-info h2, .right-side-info h2, .center-side-info h2 {
+    .left-side-info h2,
+    .right-side-info h2,
+    .center-side-info h2 {
         width: 100%;
         text-align: center;
         margin: 0 auto;
     }
 
-    .left-side-info p, .right-side-info p, .center-side-info p {
+    .left-side-info p,
+    .right-side-info p,
+    .center-side-info p {
         text-align: center;
         padding: 0 20px;
         margin: 0 auto;
@@ -1043,7 +1059,7 @@ hr {
         height: 400px;
     }
 
-    #about-gambia-top > div {
+    #about-gambia-top>div {
         width: 100%;
         clear: both;
         height: 600px;
@@ -1089,7 +1105,7 @@ hr {
 
     /* Reasons to Discover Gambia */
 
-    #reasons > div {
+    #reasons>div {
         width: 100%;
         clear: both;
         height: 700px;
@@ -1100,7 +1116,7 @@ hr {
     #reasons {
         height: 400px;
     }
-    
+
     #reasons h2 {
         font-size: 25px;
     }
@@ -1137,16 +1153,17 @@ hr {
         font-size: 10px;
         text-align: center;
     }
+
     #logo {
         font-size: 25px;
-        margin-top: 0; 
+        margin-top: 0;
 
     }
 
     #sunset-image {
-       max-width: 100%;
-       margin-top: 10%;
-       
+        max-width: 100%;
+        margin-top: 10%;
+
     }
 
     #sunset-outer {
@@ -1229,7 +1246,7 @@ hr {
         margin-bottom: 5%;
     }
 
-    #facts > div {
+    #facts>div {
         width: 100%;
         clear: both;
         height: 25px;
@@ -1270,7 +1287,7 @@ hr {
         margin: 0 auto;
         margin-top: 5%;
     }
-    
+
     #circle-cover-bg {
         background: url(../images/plane.jpg) no-repeat center center;
         height: 100%;
@@ -1279,7 +1296,7 @@ hr {
 
     /* Reasons to Discover Gambia */
 
-    #reasons-section > div {
+    #reasons-section>div {
         width: 100%;
         clear: both;
         height: 25px;
@@ -1294,7 +1311,7 @@ hr {
         padding-top: 20%;
         margin-bottom: 5%;
     }
-    
+
     #reasons h2 {
         font-size: 15px;
     }
@@ -1309,7 +1326,7 @@ hr {
 
     #reasons-section h2 {
         font-size: 10px;
-        
+
     }
 
     #reasons-section h3 {
@@ -1323,15 +1340,15 @@ hr {
     /* Things to do */
 
     #title {
-    margin-bottom: 10px;
-    margin-top: 80px;
-    border-bottom: orange solid 3px;
-    border-top: orange solid 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    background-color: white;
-    clear: both;
+        margin-bottom: 10px;
+        margin-top: 80px;
+        border-bottom: orange solid 3px;
+        border-top: orange solid 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        background-color: white;
+        clear: both;
     }
 
     #things-to-do {
@@ -1396,7 +1413,7 @@ hr {
         font-size: 20px;
     }
 
-    #contact-1 > label {
+    #contact-1>label {
         margin-bottom: 5px;
         font-size: 10px;
         display: table;
@@ -1410,10 +1427,10 @@ hr {
         font-size: 15px;
     }
 
-        * {
-            margin-bottom: 10%;
-            padding: 1;
-            border: none;
+    * {
+        margin-bottom: 10%;
+        padding: 1;
+        border: none;
     }
 
     #group-image {
@@ -1426,15 +1443,15 @@ hr {
         margin-top: 5%;
     }
 
-        #menu {
-            clear: left;
-            float: left;
-            position: absolute;
-            margin-left: 5px;
-            margin-bottom: 50px;
-            margin-top: 60px;
-            line-height: 20px;
-            font-size: 7px;
-            text-align: center;
+    #menu {
+        clear: left;
+        float: left;
+        position: absolute;
+        margin-left: 5px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+        line-height: 20px;
+        font-size: 7px;
+        text-align: center;
     }
 }

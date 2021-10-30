@@ -7,6 +7,7 @@ I thought this would be of value because there aren’t many websites offering k
 This website will have a homepage including a main image, practical information, a nav bar and footer with social media links. 
 
 **Homepage**
+
 I wanted to create an inviting space for when the user first reaches the site, which is why i chose the intense orange sunset image with birds and boats as silhouettes. 
 The Practical information is something that should be readily available as for most first-time travellers, this is the information that is most relevant to them. 
 The footer is available on all pages with the links working correctly throughout the site.   
@@ -32,8 +33,10 @@ Two basic sections with the same layout - the first is reference different exper
 The second section at the bottom of the page references Top Cuisine in the Gambia. Again with: location, type of cuisine and if it's a bar/restaurant. 
 
 I thought this would be relevant to users so they can have an idea of what to expect before visiting The Gambia. 
-As The Gambia is a third world country, and not much external marketing is organsised by the Goverment or Tourist Board - most of those who have neer travelled here before expect something completely different to what they actually discover when here. 
+As The Gambia is a third world country, and not much external marketing is organsised by the Goverment or Tourist Board - most of those who have never travelled here before expect something completely different to what they actually discover.
 
+**Contact Us**
 
-
+This is purely for those wanting to know more about either Experiences or About Gambia in more detail. I chose for it to be an 'either/or' option and the comment section is where the user can add their question/query before submitting. 
+The picture below the contact form i thought was appropriate due to it being a welcoming/inviting image that would encourage the user to get in touch.       
 

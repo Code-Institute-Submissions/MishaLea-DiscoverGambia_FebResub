@@ -1239,7 +1239,7 @@ hr {
 
 
     #about-gambia-top {
-        height: 250px;
+        height: 450px;
         width: 100%;
         overflow: hidden;
         padding-top: 5%;
@@ -1305,7 +1305,7 @@ hr {
     }
 
     #reasons {
-        height: 250px;
+        height: 450px;
         width: 100%;
         overflow: hidden;
         padding-top: 20%;
@@ -1316,13 +1316,13 @@ hr {
         font-size: 15px;
     }
 
-    /* #reasons h3 {
+    #reasons h3 {
         font-size: 12px;
         padding: 0;
         margin: 0;
         width: 100%;
         font-size: 20%;
-    } */
+    }
 
     #reasons-section h2 {
         font-size: 10px;

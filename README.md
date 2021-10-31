@@ -58,3 +58,7 @@ All other aspects of the site were not as complicated to adjust.
 **320px screen size**
 This proved more difficult to arrange for all pages. Especially the contact us page. Originally i had the picture as an 'image' element but due it not fitting correctly on the smaller size i changed it to a div and added the image through css. This helped the adjustment with the smaller screen size. 
 The other issue i had was with the About Gambia sections. For larger screen sizes the columns were vertical however for the smaller sceen it wasn't possible to arrange, so i tried to set up horizontally. This had its own issues because only the title was showing rather than the brief wording underneath.  
+
+
+**Final comments**
+After several attempts at structuring the contact us page, i decided to delete the page altogether as i already had 3 pages and felt the 4th was not laid out correctly and would jeopardise final results. 

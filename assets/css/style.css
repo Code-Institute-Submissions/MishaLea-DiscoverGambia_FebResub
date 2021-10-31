@@ -589,78 +589,7 @@ hr {
     padding-bottom: 2%;
 }
 
-/* Contact Us */
 
-
-#group-image {
-    background-repeat: no-repeat;
-    display: flex;
-}
-
-.contact-us-section {
-    margin-bottom: 5px;
-    padding-top: 5%;
-    background-color: orange;
-}
-
-.register-section h2 {
-    padding-bottom: 5px;
-    font-size: 40px;
-}
-
-#contact {
-    background-color: rgba(232, 148, 21, 0.83);
-    width: 100%;
-    height: 50%;
-}
-
-#contact h2 {
-    text-align: left;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-#contact-1 {
-    text-align: center;
-    word-spacing: 5px;
-    line-height: 5%;
-    font-size: 25px;
-    margin-bottom: 2.5%;
-    display: table;
-}
-
-#contact-2 {
-
-    margin-bottom: 5%;
-    text-align: center;
-    word-spacing: 50px;
-    line-height: 20%;
-    font-size: 25px;
-    display: inline;
-
-}
-
-#group-image {
-    background-image: url(../images/group.jpg);
-    height: 800px;
-    width: 100%;
-    position: relative;
-    background-position: 50%;
-}
-
-
-#submit {
-    font-size: 30px;
-    border: grey 2px solid;
-    margin-left: 30px;
-    text-align: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-#submit:hover {
-    border: orange groove 5px;
-}
 
 /* Media queries*/
 
@@ -948,71 +877,6 @@ hr {
         padding-bottom: 2px;
     }
 
-    /* Contact Us */
-
-
-    .register-section {
-        clear: both;
-        background-position: top;
-        height: 800px;
-        width: 100%;
-        color: black;
-        background-color: rgba(59, 19, 39, 0.6);
-    }
-
-    #group-image {
-        background-repeat: no-repeat;
-        background-size: cover;
-        clear: both;
-        background-position: center;
-        height: 650px;
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    .contact-us-section {
-        margin-bottom: 5px;
-        padding-top: 5%;
-    }
-
-    .register-section h2 {
-        padding-bottom: 5px;
-        font-size: 5px;
-    }
-
-
-    #contact h2 {
-        font-size: 25px;
-        border-bottom: 5px grey solid;
-    }
-
-    #contact-1 {
-        margin-bottom: 5px;
-        font-size: 20px;
-        display: table;
-        word-spacing: 5px;
-
-    }
-
-    #contact-2 {
-        margin-bottom: 5px;
-        font-size: 20px;
-        display: table;
-        word-spacing: 5px;
-        margin-right: 5px;
-    }
-
-    #submit {
-        font-size: 25px;
-        letter-spacing: 2px;
-        margin-top: 5%;
-        display: inline-table;
-        float: right;
-        color: ivory;
-        background: black;
-        margin: 0 auto;
-    }
-
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -1147,10 +1011,7 @@ hr {
         font-size: 10px;
     }
 
-    #contact-1 {
-        display: table;
-        line-break: normal;
-    }
+    
 
 }
 
@@ -1255,7 +1116,7 @@ hr {
 
 
     #about-gambia-top {
-        height: 450px;
+        height: 300px;
         width: 100%;
         overflow: hidden;
         padding-top: 5%;
@@ -1321,7 +1182,7 @@ hr {
     }
 
     #reasons {
-        height: 450px;
+        height: 255px;
         width: 100%;
         overflow: hidden;
         padding-top: 20%;
@@ -1411,65 +1272,5 @@ hr {
         border-width: 5px;
         border-radius: 50%;
         margin: 0 auto;
-    }
-
-    #register-section {
-        margin-top: 30%;
-    }
-
-    .register-section h2 {
-        padding-bottom: 5px;
-        font-size: 5px;
-        margin-top: 10%;
-    }
-
-    /* Contact Us*/
-
-    #contact h2 {
-        font-size: 20px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    #contact-1>label {
-        margin-bottom: 5px;
-        font-size: 10px;
-        display: table;
-    }
-
-    #contact-2 {
-        margin-bottom: 5%;
-        text-align: left;
-        word-spacing: 30px;
-        line-height: 20px;
-        font-size: 15px;
-    }
-
-    * {
-        margin-bottom: 10%;
-        padding: 1px;
-        border: none;
-    }
-
-    #group-image {
-        background-repeat: no-repeat;
-        background-size: cover;
-        clear: both;
-        background-position: center;
-        height: 124%;
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        position: absolute;
-        margin-left: 5px;
-        margin-bottom: 50px;
-        margin-top: 60px;
-        line-height: 20px;
-        font-size: 7px;
-        text-align: center;
     }
 }

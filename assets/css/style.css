@@ -593,11 +593,9 @@ hr {
 /* Contact us page */
 
 #group-outer {
-    height: 600px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
-    padding-top: 1%;
-
     position: relative;
 }
 
@@ -609,10 +607,10 @@ hr {
 }
 
 #group-image {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background: url('../images/group.jpg') no-repeat center center;
-    position: absolute;
+    object-fit: contain;
 }
 
 #cover-text-contact {

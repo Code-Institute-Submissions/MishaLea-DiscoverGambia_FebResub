@@ -179,6 +179,7 @@ hr {
     font-size: 15px;
 }
 
+
 /* footer */
 
 footer {
@@ -589,7 +590,50 @@ hr {
     padding-bottom: 2%;
 }
 
+/* Contact us page */
 
+#group-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1%;
+
+    position: relative;
+}
+
+#cover-text-contact,
+#cover-text-contact h2 {
+    color: rgb(51, 50, 50);
+    font-size: 150%;
+    text-align: center;
+}
+
+#group-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/group.jpg') no-repeat center center;
+    position: absolute;
+}
+
+#cover-text-contact {
+    font-size: 80%;
+    font-family: Roboto;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 95px;
+
+    padding-top: 20px;
+    padding-left: 5px;
+
+    background-color: rgba(232, 148, 21, 0.83);
+
+    top: 30px;
+    right: 100px;
+
+    position: absolute;
+}
 
 /* Media queries*/
 

@@ -179,6 +179,17 @@ hr {
     font-size: 15px;
 }
 
+/*Contact us Page*/
+
+#contact-us {
+    height: 800px;
+}
+
+#contact-us-title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 250%
+}
 
 /* footer */
 
@@ -1057,9 +1068,9 @@ hr {
 
 }
 
-/* For small screen sizes from 320px wide and down */
+/* For small screen sizes from 390px wide and down */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
     #menu {
         clear: left;
         float: left;
@@ -1165,14 +1176,21 @@ hr {
         margin-bottom: 5%;
     }
 
-    #facts>div {
+    /*#facts>div {
         width: 100%;
         clear: both;
         height: 25px;
         padding: 0;
         margin-top: 5px;
     }
+*/
 
+    .group-facts>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
     /* How To Get There */
 
     #how-to-title {

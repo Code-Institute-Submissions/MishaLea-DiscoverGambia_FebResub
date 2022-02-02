@@ -244,7 +244,7 @@ footer {
     position: relative;
     color: ivory;
     padding: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #facts p {
@@ -273,7 +273,6 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 120%;
-
 }
 
 #how-to-title {
@@ -693,51 +692,29 @@ hr {
     /* About Gambia - Good to know */
 
     #about-gambia-top {
-        height: 500px;
-        margin-bottom: 5px;
+        height: 350px;
     }
 
-    #about-gambia-top>div {
-        width: 100%;
-        clear: both;
-        height: 300px;
-        padding: 0;
-        float: left;
-    }
 
     #about-gambia-top h2 {
         font-size: 17px;
-        padding: 10px 0 10px 0;
     }
 
-    #about-gambia-top h3 {
+    #about-gambia-top p {
         font-size: 15px;
-        padding: 0;
-        margin: 0;
-        height: 300px;
     }
 
     #good-to-know {
         height: 5%;
-        font-size: 15px;
+        font-size: 25px;
+        padding-bottom: 25px;
     }
 
-    #facts h3 {
+    #facts p {
         font-size: 15px;
         text-align: center;
         margin-top: 5%;
         padding-top: 5%;
-    }
-
-    #facts h2 {
-        margin-top: 0;
-        padding-top: 0;
-        border-bottom: 2px solid;
-        margin-bottom: 20%;
-        padding-bottom: 20%;
-        font-size: 14px;
-        margin-left: 0%;
-        margin-right: 0%;
     }
 
     /* Reasons to Discover Gambia*/

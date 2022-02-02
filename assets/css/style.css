@@ -219,25 +219,31 @@ footer {
 
 /*About Gambia*/
 
-#about-gambia-top {
+/* #about-gambia-top {
     height: 400px;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
-}
+} */
 
 #good-to-know {
     color: ivory;
-    font-size: 200%;
+    /* font-size: 200%; */
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
+    margin: 1rem 0;
+    border: 2px solid green;
 
-    width: 100%;
-    height: 80px;
-    padding-bottom: 0;
+    /* width: 100%;
+    height: 80px; */
+    padding: 1rem;
 
-    padding-top: 35px;
+    /* padding-top: 35px; */
+}
+
+#good-to-know h1 {
+    color: ivory;
 }
 
 #facts h2 {
@@ -254,12 +260,12 @@ footer {
     padding-top: 50px;
 }
 
-#facts div {
+#facts {
     background-color: rgba(59, 19, 39, 0.6);
-    height: 400px;
-    width: 20%;
+    /* height: 400px; */
+    /* width: 20%; */
     float: left;
-    padding: 20px 20px 10px 20px;
+    padding: 1.5rem 1rem;
     text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
@@ -269,9 +275,9 @@ footer {
 
 #how-to-get {
     height: 600px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     text-align: center;
-    padding: 5px;
+    /* padding: 5px; */
     font-size: 120%;
 }
 
@@ -958,7 +964,7 @@ hr {
     #about-gambia-top>div {
         width: 100%;
         clear: both;
-        height: 600px;
+        /* height: 600px; */
         padding: 0;
         float: left;
     }
@@ -967,8 +973,8 @@ hr {
         font-size: 25px;
     }
 
-    #about-gambia-top h3 {
-        font-size: 12px;
+    #about-gambia-top p {
+        /* font-size: 20px; */
         padding: 0;
         margin: 0;
         width: 100%;
@@ -976,7 +982,6 @@ hr {
     }
 
     #good-to-know {
-        height: 10%;
         font-size: 20px;
     }
 
@@ -984,7 +989,7 @@ hr {
         font-size: 10px;
     }
 
-    #facts h3 {
+    #facts p {
         font-size: 10px;
     }
 
@@ -1040,7 +1045,7 @@ hr {
 /* For small screen sizes from 390px wide and down */
 
 @media screen and (max-width: 390px) {
-    #menu {
+    /* #menu {
         clear: left;
         float: left;
         position: absolute;
@@ -1050,13 +1055,8 @@ hr {
         line-height: 20px;
         font-size: 10px;
         text-align: center;
-    }
+    } */
 
-    #logo {
-        font-size: 25px;
-        margin-top: 0;
-
-    }
 
     #sunset-image {
         max-width: 100%;
@@ -1138,41 +1138,42 @@ hr {
 
 
     #about-gambia-top {
-        height: 300px;
-        width: 100%;
-        overflow: hidden;
-        padding-top: 5%;
-        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        /* padding: 2.5rem 0; */
     }
 
-    #facts>div {
-        width: 100%;
-        clear: both;
-        height: 25px;
-        padding: 0;
+    #good-to-know {
+        margin: 0;
+    }
+
+    #facts {
+        margin: 0;
+    }
+
+    .sub-facts {
+        /* width: 100%; */
+        /* clear: both; */
+        /* height: 25px; */
+        padding: 1rem 0.5rem;
         margin-top: 5px;
     }
 
     /* How To Get There */
 
     #how-to-title {
-        margin-top: 1px;
-        margin-bottom: 1px;
         background-color: orange;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        
     }
 
-    #how-to-title {
-        font-size: 10%;
-    }
 
     #how-to-get {
-        height: 600px;
-        margin-top: 5%;
-        text-align: center;
-        padding: 5px;
-        font-size: 75%;
+        margin: 1.5rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #circle-container {

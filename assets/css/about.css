@@ -1,0 +1,66 @@
+body {
+    font-family: 'open sans', sans-serif;
+}
+
+
+a, header ul {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    /* align-items: center; */
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#logo {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+}
+
+#good-to-know h1 {
+    text-align: center;
+    background-color: orange;
+    color: ivory;
+    padding: 1.5rem 0;  
+    margin: 0; 
+}
+
+.about-gambia-top {
+    padding: 0;
+}
+
+.sub-fact h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: ivory;
+}
+
+.sub-fact p {
+    font-size: 14px;
+    padding: 0 1rem;
+    line-height: 18px;
+    text-align: justify;
+    color: white;
+}
+
+.sub-fact {
+    border: 2px solid purple;
+    background-color: #5e5e5e;
+}

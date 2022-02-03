@@ -1057,7 +1057,14 @@ hr {
         text-align: center;
     } */
 
-
+    #logo{
+        font-family: Roboto, sans-serif;
+        text-transform: uppercase;
+        color: #2e3935;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0;
+    }
     #sunset-image {
         max-width: 100%;
         margin-top: 10%;

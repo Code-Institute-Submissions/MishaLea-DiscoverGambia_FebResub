@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+
 body {
     font-family: 'open sans', sans-serif;
 }
 
+/* Do i need to add a media query for the small screen size?*/
+
+@media screen and (max-width: 390px) {
 
 a, header ul {
     text-decoration: none;
@@ -12,7 +16,6 @@ header {
     display: flex;
     flex-direction: column;
     padding: 0;
-    /* align-items: center; */
     top: 0;
 }
 
@@ -39,11 +42,15 @@ nav ul li a {
     margin: 0;
 }
 
+#good-to-know {
+    margin: 0;
+}
 #good-to-know h1 {
     text-align: center;
+    text-transform: uppercase;
     background-color: orange;
     color: ivory;
-    padding: 1.5rem 0;  
+    padding: 1rem 0;  
     margin: 0; 
 }
 
@@ -58,7 +65,7 @@ nav ul li a {
 }
 
 .sub-fact p {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0 1rem;
     line-height: 18px;
     text-align: justify;
@@ -66,6 +73,134 @@ nav ul li a {
 }
 
 .sub-fact {
-    border: 2px solid red;
-    background-color: #5e5e5e;
+    border: 2px solid orange;
+    background-color: rgba(59, 19, 39, 0.6);
+}
+
+/*How To Get There*/
+
+#how-to-title {
+    background-color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    color: ivory;
+    padding: 1rem 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#how-to-get {
+    margin-top: 5px;
+    
+}
+
+#left-side {
+    position: relative;
+    
+}
+
+#left-side-content h3 {
+    background-color: rgba(59, 19, 39, 0.6);
+    text-align: center;
+    text-transform: uppercase;
+    color: ivory;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+#left-side-content p {
+    font-size: 0.5rem;
+    text-align: justify;
+    padding: 0 1rem;
+    line-height: 18px;
+}
+
+#center-side {
+    position: relative;
+    bottom: 200px;
+}
+#circle-cover-bg {
+    background: url(../images/plane.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-container {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: orange;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#right-side {
+    position: relative;
+    top: 230px;
+}
+
+#right-side-content h3 {
+    background-color: rgba(59, 19, 39, 0.6);
+    text-align: center;
+    text-transform: uppercase;
+    color: ivory;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+#right-side-content p {
+    font-size: 0.5rem;
+    text-align: justify;
+    padding: 0 1rem;
+    line-height: 18px;
+}
+
+/*Reasons Why Section on About Gambia Page */
+
+#reasons {
+    padding: 0; 
+    margin-top: 35px;
+}
+
+
+#reasons-why h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: orange;
+    color: ivory;
+    padding: 1rem 0;  
+    margin: 0; 
+}
+
+#why-gambia {
+    font-size: 1rem;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(232, 148, 21, 0.83);
+    padding: 1rem 0;
+    
+
+}
+
+.social-networks {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    color: rgb(51, 50, 50);
+}
+
 }

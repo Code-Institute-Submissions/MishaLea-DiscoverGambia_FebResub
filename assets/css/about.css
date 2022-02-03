@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
 
+
 body {
     font-family: 'open sans', sans-serif;
 }
@@ -202,5 +203,118 @@ footer {
 .social-networks i {
     color: rgb(51, 50, 50);
 }
+
+}
+
+@media screen and (max-width: 950px) {
+  
+    
+} 
+
+@media screen and (min-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    
+    
+    body {
+        font-family: 'open sans', sans-serif;
+        font-weight: 600;
+        color: #3c3c3c;
+    }
+    
+    /* headings and logo*/
+    
+    h1,
+    h2 {
+        font-family: Roboto, sans-serif;
+        text-transform: uppercase;
+        color: #2e3935;
+    }
+    
+    #logo {
+        float: left;
+        font-size: 300%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* Navigation links*/
+    
+    #menu {
+        font-size: medium;
+    }
+    
+    #menu,
+    #logo {
+        line-height: 75px;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 40px;
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: rgb(51, 50, 50);
+    }
+    
+    #menu a:hover {
+        border-bottom: 2px groove #19154a;
+    }
+    
+    .active {
+        border-bottom: 2px dotted #19154a;
+    }
+
+    /* footer */
+
+footer {
+    height: 150px;
+    background-color: rgba(232, 148, 21, 0.83);
+    padding-top: 2%;
+
+}
+
+.social-networks {
+    text-align: center;
+    letter-spacing: 40px;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 280%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(51, 50, 50);
+}
+
+    /* a, header ul {
+        text-decoration: none;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        top: 0;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0.5rem;
+        margin: 0;
+    } */
 
 }

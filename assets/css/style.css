@@ -219,53 +219,48 @@ footer {
 
 /*About Gambia*/
 
-/* #about-gambia-top {
-    height: 400px;
+.about-gambia-top {
+    /* height: 400px; */
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
-} */
+}
 
 #good-to-know {
     color: ivory;
-    /* font-size: 200%; */
+    font-size: 200%;
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
-    margin: 1rem 0;
-    border: 2px solid green;
+    align-content: center;
 
-    /* width: 100%;
-    height: 80px; */
-    padding: 1rem;
+    width: 100%;
+    /* height: 80px; */
+    /* padding-bottom: 0;
 
-    /* padding-top: 35px; */
+    padding-top: 35px; */
 }
 
-#good-to-know h1 {
-    color: ivory;
-}
-
-#facts h2 {
+.facts h2 {
     position: relative;
     color: ivory;
     padding: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-#facts p {
+.facts p {
     position: relative;
     color: ivory;
     font-size: 15px;
     padding-top: 50px;
 }
 
-#facts {
+#facts div {
     background-color: rgba(59, 19, 39, 0.6);
     /* height: 400px; */
-    /* width: 20%; */
+    width: 20%;
     float: left;
-    padding: 1.5rem 1rem;
+    padding: 20px 20px 10px 20px;
     text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
@@ -275,10 +270,11 @@ footer {
 
 #how-to-get {
     height: 600px;
-    /* margin-top: 5%; */
+    margin-top: 5%;
     text-align: center;
-    /* padding: 5px; */
+    padding: 5px;
     font-size: 120%;
+
 }
 
 #how-to-title {
@@ -403,21 +399,21 @@ footer {
     padding-top: 35px;
 }
 
-#reasons-section h2 {
+#reasons-facts h2 {
     position: relative;
     color: ivory;
     padding: 2%;
     font-size: 20px;
 }
 
-#reasons-section h3 {
+#reasons-facts p {
     position: relative;
     color: ivory;
     font-size: 15px;
     padding-top: 25px;
 }
 
-#reasons-section div {
+#reasons-facts div {
     background-color: rgba(59, 19, 39, 0.6);
     height: 700px;
     width: 20%;
@@ -697,30 +693,52 @@ hr {
 
     /* About Gambia - Good to know */
 
-    #about-gambia-top {
-        height: 350px;
+    /* .about-gambia-top {
+        height: 500px;
+        margin-bottom: 5px;
+    } */
+
+    .about-gambia-top>div {
+        width: 100%;
+        clear: both;
+        height: 300px;
+        padding: 0;
+        float: left;
     }
 
-
-    #about-gambia-top h2 {
+    .about-gambia-top h2 {
         font-size: 17px;
+        padding: 10px 0 10px 0;
     }
 
-    #about-gambia-top p {
+    .about-gambia-top h3 {
         font-size: 15px;
+        padding: 0;
+        margin: 0;
+        height: 300px;
     }
 
     #good-to-know {
         height: 5%;
-        font-size: 25px;
-        padding-bottom: 25px;
+        font-size: 15px;
     }
 
-    #facts p {
+    #facts .sub-fact p {
         font-size: 15px;
         text-align: center;
         margin-top: 5%;
         padding-top: 5%;
+    }
+
+    #facts .sub-fact h2 {
+        margin-top: 0;
+        padding-top: 0;
+        border-bottom: 2px solid;
+        margin-bottom: 20%;
+        padding-bottom: 20%;
+        font-size: 14px;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     /* Reasons to Discover Gambia*/
@@ -750,7 +768,7 @@ hr {
         float: left;
     }
 
-    #reasons-section {
+    #reasons-facts {
         width: 100%;
         clear: both;
         height: 700px;
@@ -758,14 +776,14 @@ hr {
         float: left;
     }
 
-    #reasons-section h3 {
+    #reasons-facts p {
         font-size: 15px;
         text-align: center;
         margin-top: 5%;
         padding-top: 5%;
     }
 
-    #reasons-section h2 {
+    #reasons-facts h2 {
         margin-top: 0;
         padding-top: 0;
         border-bottom: 2px solid;
@@ -957,24 +975,24 @@ hr {
 
     /* About Gambia - Good to know*/
 
-    #about-gambia-top {
+    /* .about-gambia-top {
         height: 400px;
-    }
+    } */
 
-    #about-gambia-top>div {
+    .about-gambia-top>div {
         width: 100%;
         clear: both;
-        /* height: 600px; */
+        height: 600px;
         padding: 0;
         float: left;
     }
 
-    #about-gambia-top h2 {
+    .about-gambia-top h2 {
         font-size: 25px;
     }
 
-    #about-gambia-top p {
-        /* font-size: 20px; */
+    .about-gambia-top h3 {
+        font-size: 12px;
         padding: 0;
         margin: 0;
         width: 100%;
@@ -982,6 +1000,7 @@ hr {
     }
 
     #good-to-know {
+        height: 10%;
         font-size: 20px;
     }
 
@@ -989,7 +1008,7 @@ hr {
         font-size: 10px;
     }
 
-    #facts p {
+    #facts h3 {
         font-size: 10px;
     }
 
@@ -1030,11 +1049,11 @@ hr {
         font-size: 20%;
     }
 
-    #reasons-section h2 {
+    #reasons-facts h2 {
         font-size: 10px;
     }
 
-    #reasons-section h3 {
+    #reasons-facts p {
         font-size: 10px;
     }
 
@@ -1045,7 +1064,7 @@ hr {
 /* For small screen sizes from 390px wide and down */
 
 @media screen and (max-width: 390px) {
-    /* #menu {
+    #menu {
         clear: left;
         float: left;
         position: absolute;
@@ -1055,16 +1074,14 @@ hr {
         line-height: 20px;
         font-size: 10px;
         text-align: center;
-    } */
-
-    #logo{
-        font-family: Roboto, sans-serif;
-        text-transform: uppercase;
-        color: #2e3935;
-        font-size: 1.2rem;
-        text-align: center;
-        margin: 0;
     }
+
+    #logo {
+        font-size: 25px;
+        margin-top: 0;
+
+    }
+
     #sunset-image {
         max-width: 100%;
         margin-top: 10%;
@@ -1144,45 +1161,103 @@ hr {
     /* About Gambia - Good to know*/
 
 
-    #about-gambia-top {
+    #good-to-know {
+        /* margin: 0; */
+        border: 3px solid red;
+        height: 10px;
+        padding-bottom: 1.3rem;
+    }
+    #good-to-know h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: orange;
+        color: ivory; 
+        margin: 0; 
+    }
+    
+    .about-gambia-top {
+        padding: 0;
+        border: 3px solid green;
+    }
+    
+    .facts {
         display: flex;
         flex-direction: column;
-        border: 2px solid red;
-        /* padding: 2.5rem 0; */
+        max-height: max-content;
     }
 
-    #good-to-know {
-        margin: 0;
+    .sub-fact {
+        border: 2px solid orange;
+        background-color: rgba(59, 19, 39, 0.6);
+
+        flex-direction: row;
+        max-width: fit-content;
     }
 
-    #facts {
-        margin: 0;
+
+    .sub-fact h2 {
+        font-size: 1rem;
+        text-align: center;
+        color: ivory;
     }
-
-    .sub-facts {
-        /* width: 100%; */
-        /* clear: both; */
-        /* height: 25px; */
-        padding: 1rem 0.5rem;
-        margin-top: 5px;
+    
+    .sub-fact p {
+        font-size: 12px;
+        padding: 0 1rem;
+        line-height: 18px;
+        text-align: justify;
+        color: white;
     }
-
-    /* How To Get There */
-
+    
+    
+    /*How To Get There*/
+    
     #how-to-title {
         background-color: orange;
+        text-align: center;
+        text-transform: uppercase;
+        color: ivory;
+        padding: 1rem 0;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    #how-to-get {
+        margin-top: 5px;
         
     }
-
-
-    #how-to-get {
-        margin: 1.5rem auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    
+    #left-side {
+        position: relative;
+        
     }
-
+    
+    #left-side-content h3 {
+        background-color: rgba(59, 19, 39, 0.6);
+        text-align: center;
+        text-transform: uppercase;
+        color: ivory;
+        padding: 1rem 0;
+        margin: 0;
+    }
+    
+    #left-side-content p {
+        font-size: 0.5rem;
+        text-align: justify;
+        padding: 0 1rem;
+        line-height: 18px;
+    }
+    
+    #center-side {
+        position: relative;
+        bottom: 200px;
+    }
+    #circle-cover-bg {
+        background: url(../images/plane.jpg) no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
     #circle-container {
         width: 150px;
         height: 150px;
@@ -1194,55 +1269,49 @@ hr {
         margin: 0 auto;
         margin-top: 5%;
     }
-
-    #circle-cover-bg {
-        background: url(../images/plane.jpg) no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
+    
+    #right-side {
+        position: relative;
+        top: 230px;
     }
-
-    /* Reasons to Discover Gambia */
-
-    #reasons-section>div {
-        width: 100%;
-        clear: both;
-        height: 25px;
-        padding: 0;
-        margin-top: 5px;
-    }
-
-    #reasons {
-        height: 255px;
-        width: 100%;
-        overflow: hidden;
-        padding-top: 20%;
-        margin-bottom: 5%;
-    }
-
-    #reasons h2 {
-        font-size: 15px;
-    }
-
-    #reasons h3 {
-        font-size: 12px;
-        padding: 0;
+    
+    #right-side-content h3 {
+        background-color: rgba(59, 19, 39, 0.6);
+        text-align: center;
+        text-transform: uppercase;
+        color: ivory;
+        padding: 1rem 0;
         margin: 0;
-        width: 100%;
-        font-size: 20%;
     }
-
-    #reasons-section h2 {
-        font-size: 10px;
-
+    
+    #right-side-content p {
+        font-size: 0.5rem;
+        text-align: justify;
+        padding: 0 1rem;
+        line-height: 18px;
     }
-
-    #reasons-section h3 {
-        font-size: 10px;
+    
+    /*Reasons Why Section on About Gambia Page */
+    
+    #reasons {
+        padding: 0; 
+        margin-top: 35px;
     }
-
-    #why-gambia h2 {
-        font-size: 20%;
+    
+    
+    #reasons-why h1 {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: orange;
+        color: ivory;
+        padding: 1rem 0;  
+        margin: 0; 
     }
+    
+    #why-gambia {
+        font-size: 1rem;
+    }
+    
 
     /* Things to do */
 

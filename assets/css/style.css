@@ -220,10 +220,11 @@ footer {
 /*About Gambia*/
 
 .about-gambia-top {
-    /* height: 400px; */
+    height: 450px;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
+    border: 4px solid red;
 }
 
 #good-to-know {
@@ -235,16 +236,29 @@ footer {
     align-content: center;
 
     width: 100%;
-    /* height: 80px; */
+    height: 80px;
     /* padding-bottom: 0;
 
     padding-top: 35px; */
+    border: 4px solid violet;
+
+}
+
+.sub-fact {
+    background-color: grey;
+    height: 700px;
+    width: 20%;
+    float: left;
+    padding: 30px 30px 0 30px;
+    text-align: center;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
 }
 
 .facts h2 {
     position: relative;
     color: ivory;
-    padding: 0;
+    padding: 2%;
     font-size: 20px;
 }
 
@@ -253,24 +267,26 @@ footer {
     color: ivory;
     font-size: 15px;
     padding-top: 50px;
+    border: 4px solid grey;
+    
 }
 
-#facts div {
-    background-color: rgba(59, 19, 39, 0.6);
-    /* height: 400px; */
+.sub-fact div {
+    height: 400px;
     width: 20%;
     float: left;
     padding: 20px 20px 10px 20px;
     text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
+    border: 4px solid blue;
 }
 
 /*How To Get There*/
 
 #how-to-get {
     height: 600px;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     text-align: center;
     padding: 5px;
     font-size: 120%;
@@ -378,12 +394,13 @@ footer {
     margin-top: 1%;
 }
 
-#reasons-why {
+
+/* #reasons-why {
     background-size: cover;
     background-position: center;
     height: 600px;
     width: 100%;
-}
+} */
 
 #why-gambia {
     color: ivory;
@@ -391,31 +408,36 @@ footer {
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
+    align-content: center;
 
     width: 100%;
     height: 80px;
-    padding-bottom: 0;
-
-    padding-top: 35px;
+    border: 4px solid violet;
 }
 
-#reasons-facts h2 {
+.reasons {
+    background-color: grey;
+    height: 390px;
+    text-align: start;
+    width: 100%;
+}
+.reasons-facts h2 {
     position: relative;
     color: ivory;
     padding: 2%;
     font-size: 20px;
 }
 
-#reasons-facts p {
+.reasons-facts p {
     position: relative;
     color: ivory;
     font-size: 15px;
     padding-top: 25px;
+    background-color: grey;
 }
 
-#reasons-facts div {
-    background-color: rgba(59, 19, 39, 0.6);
-    height: 700px;
+.reasons-facts div {
+    height: 300px;
     width: 20%;
     float: left;
     padding: 30px 30px 0 30px;
@@ -423,7 +445,6 @@ footer {
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
 }
-
 
 /* Things To Do */
 
@@ -693,15 +714,15 @@ hr {
 
     /* About Gambia - Good to know */
 
-    /* .about-gambia-top {
-        height: 500px;
+    .about-gambia-top {
+        height: 725px;
         margin-bottom: 5px;
-    } */
+    }
 
     .about-gambia-top>div {
         width: 100%;
         clear: both;
-        height: 300px;
+        height: 400px;
         padding: 0;
         float: left;
     }
@@ -711,11 +732,11 @@ hr {
         padding: 10px 0 10px 0;
     }
 
-    .about-gambia-top h3 {
+    .about-gambia-top p {
         font-size: 15px;
         padding: 0;
         margin: 0;
-        height: 300px;
+        height: 80px;
     }
 
     #good-to-know {
@@ -734,7 +755,7 @@ hr {
         margin-top: 0;
         padding-top: 0;
         border-bottom: 2px solid;
-        margin-bottom: 20%;
+        margin-bottom: 2%;
         padding-bottom: 20%;
         font-size: 14px;
         margin-left: 0%;
@@ -768,7 +789,7 @@ hr {
         float: left;
     }
 
-    #reasons-facts {
+    .reasons-facts {
         width: 100%;
         clear: both;
         height: 700px;
@@ -776,14 +797,14 @@ hr {
         float: left;
     }
 
-    #reasons-facts p {
+    .reasons-facts p {
         font-size: 15px;
         text-align: center;
         margin-top: 5%;
         padding-top: 5%;
     }
 
-    #reasons-facts h2 {
+    .reasons-facts h2 {
         margin-top: 0;
         padding-top: 0;
         border-bottom: 2px solid;
@@ -803,7 +824,7 @@ hr {
 
     #how-to-get {
         width: 80%;
-        height: 1100px;
+        height: 830px;
         margin: 0 auto;
         padding-top: 5%;
     }
@@ -1049,11 +1070,11 @@ hr {
         font-size: 20%;
     }
 
-    #reasons-facts h2 {
+    .reasons-facts h2 {
         font-size: 10px;
     }
 
-    #reasons-facts p {
+    .reasons-facts p {
         font-size: 10px;
     }
 
@@ -1068,7 +1089,7 @@ hr {
         clear: left;
         float: left;
         position: absolute;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 50px;
         margin-top: 50px;
         line-height: 20px;
@@ -1076,9 +1097,13 @@ hr {
         text-align: center;
     }
 
+    nav {
+        margin-top: 10px;
+    }
+
     #logo {
         font-size: 25px;
-        margin-top: 0;
+        margin-top: -15px;
 
     }
 
@@ -1162,10 +1187,10 @@ hr {
 
 
     #good-to-know {
-        /* margin: 0; */
-        border: 3px solid red;
+        margin-top: 5px;
         height: 10px;
-        padding-bottom: 1.3rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
     #good-to-know h1 {
         text-align: center;
@@ -1177,7 +1202,6 @@ hr {
     
     .about-gambia-top {
         padding: 0;
-        border: 3px solid green;
     }
     
     .facts {
@@ -1189,9 +1213,7 @@ hr {
     .sub-fact {
         border: 2px solid orange;
         background-color: rgba(59, 19, 39, 0.6);
-
         flex-direction: row;
-        max-width: fit-content;
     }
 
 
@@ -1207,6 +1229,7 @@ hr {
         line-height: 18px;
         text-align: justify;
         color: white;
+        justify-content: center;
     }
     
     
@@ -1250,7 +1273,7 @@ hr {
     
     #center-side {
         position: relative;
-        bottom: 200px;
+        bottom: 250px;
     }
     #circle-cover-bg {
         background: url(../images/plane.jpg) no-repeat center center;
@@ -1299,7 +1322,8 @@ hr {
     }
     
     
-    #reasons-why h1 {
+    #why-gambia {
+        font-size: 1rem;
         text-align: center;
         text-transform: uppercase;
         background-color: orange;
@@ -1307,9 +1331,33 @@ hr {
         padding: 1rem 0;  
         margin: 0; 
     }
-    
-    #why-gambia {
+
+    .reasons-facts {
+        display: flex;
+        flex-direction: column;
+        max-height: max-content;
+    }
+
+    .sub-fact-2 {
+        border: 2px solid orange;
+        background-color: rgba(59, 19, 39, 0.6);
+        flex-direction: row;
+    }
+
+
+    .sub-fact-2 h2 {
         font-size: 1rem;
+        text-align: center;
+        color: ivory;
+    }
+    
+    .sub-fact-2 p {
+        font-size: 12px;
+        padding: 0 1rem;
+        line-height: 18px;
+        text-align: justify;
+        color: white;
+        justify-content: center;
     }
     
 

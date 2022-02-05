@@ -236,9 +236,6 @@ footer {
 
     width: 100%;
     height: 80px;
-    /* padding-bottom: 0;
-
-    padding-top: 35px; */
 }
 
 .facts {
@@ -246,7 +243,6 @@ footer {
     display: flex;
     height: 360px;
     float: left;
-    padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
 }
@@ -256,15 +252,15 @@ footer {
     display: grid;
     width: auto;
     float: left;
-    padding: 30px 30px 0 30px;
-    border: 2px solid rgba(232, 148, 21, 0.83);
+    padding: 10px 10px 10px 10px;
+    /* border: 2px solid rgba(232, 148, 21, 0.83); */
     box-sizing: border-box;
 }
 
 .sub-fact h2 {
     position: relative;
     color: ivory;
-    padding: 2%;
+    padding: 10px 10px 10px 10px;
     font-size: 20px;
     border-bottom: 3px solid;
 }
@@ -272,8 +268,7 @@ footer {
 .sub-fact p {
     position: relative;
     color: ivory;
-    font-size: 15px;
-    padding-top: 50px;
+    padding: 10px 10px 10px 10px;
 }
 
 .sub-fact div {
@@ -292,13 +287,12 @@ footer {
     height: 400px;
     /* margin-top: 5%; */
     text-align: center;
-    padding: 5px;
+    /* padding: 5px; */
     font-size: 120%;
 
 }
 
 #how-to-title {
-    margin-bottom: 3%;
     margin-bottom: 3%;
     border-top: orange solid 6px;
     border-bottom: orange solid 6px;
@@ -338,7 +332,7 @@ footer {
 #right-side-content {
     width: 95%;
     float: left;
-    line-height: 25px;
+    line-height: 15px;
     clear: both;
     margin-bottom: 40px;
 }
@@ -358,6 +352,7 @@ footer {
     font-size: 75%;
     border-bottom: orange solid 5px;
     margin-left: 5%;
+    padding-bottom: 5%;
 }
 
 #left-side-content h2 {
@@ -403,13 +398,6 @@ footer {
     overflow: hidden;
     padding-top: 1%;
 }
-
-/* #reasons-why {
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-} */
 
 #why-gambia {
     color: ivory;
@@ -477,7 +465,6 @@ footer {
 
 hr {
     border-top: 3px double orange;
-    /*     background-color: orange; */
     width: 100%;
 }
 
@@ -645,49 +632,6 @@ hr {
     width: 100%;
 }
 
-
-/* Contact us page */
-
-#group-outer {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#cover-text-contact,
-#cover-text-contact h2 {
-    color: rgb(51, 50, 50);
-    font-size: 150%;
-    text-align: center;
-}
-
-#group-image {
-    height: 650px;
-    width: 100%;
-    background: url('../images/group.jpg') no-repeat center center;
-    object-fit: contain;
-}
-
-#cover-text-contact {
-    font-size: 80%;
-    font-family: Roboto;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-
-    width: 300px;
-    height: 95px;
-
-    padding-top: 20px;
-    padding-left: 5px;
-
-    background-color: rgba(232, 148, 21, 0.83);
-
-    top: 30px;
-    right: 100px;
-
-    position: absolute;
-}
 
 /* Media queries*/
 
@@ -1064,7 +1008,7 @@ hr {
         margin-top: 10%;
         clear: both;
     }
-    
+
     #cover-text {
         font-size: 40%;
         height: 10%;

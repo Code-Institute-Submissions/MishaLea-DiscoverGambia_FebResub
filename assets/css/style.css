@@ -471,56 +471,61 @@ footer {
 /* Things To Do */
 
 #things-to-do {
-    height: 700px;
-    padding-top: 5%;
+    height: 1000px;
+    width: 100%;
 }
 
 hr {
     border-top: 3px double orange;
+    /*     background-color: orange; */
     width: 100%;
-    margin: 5px;
 }
 
 #left-things {
     padding-top: 60px;
-    width: 33%;
-    float: left;
+    width: 100%;
+}
+
+#title {
+    width: 100%;
 }
 
 #right-things {
-    padding-top: 60px;
-    width: 33%;
-    float: right;
+
+    width: 100%;
 }
 
 #center-things {
     padding-top: 60px;
-    width: 33%;
     margin: 0 auto;
 }
 
 .left-side {
-    width: 60%;
-    float: right;
+    width: 100%;
     line-height: 30px;
-    clear: both;
+
     margin-bottom: 50px;
+    background-color: orange;
 }
 
 .right-side {
-    width: 60%;
-    float: left;
+    width: 110%;
     line-height: 30px;
-    clear: both;
+
     margin-bottom: 50px;
+    background-color: grey;
+    color: ivory
 }
 
 .right-side h2 {
-    text-align: right;
+    text-align: left;
+    color: ivory;
+    width: 100%;
 }
 
 .right-side h3 {
-    text-align: right;
+    text-align: left;
+    width: 100%;
 }
 
 #title {
@@ -548,14 +553,15 @@ hr {
 }
 
 #things-to-do h1 {
-    border-bottom: 2px solid rgba(232, 148, 21, 0.83);
+    border-bottom: 5px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
+    width: 100%;
 }
 
 /* Cuisine & Culture*/
 
 #cuisine {
-    height: 800px;
+    height: 700px;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -563,49 +569,46 @@ hr {
 hr {
     border-top: 3px double orange;
     width: 100%;
-    margin: 5px;
 }
 
-#left-things-bottom {
-    padding-top: 60px;
+#left-things-bottom h2 {
     width: 33%;
-    float: left;
+    color: ivory;
+    line-height: 30px;
 }
 
 #right-things-bottom {
-    padding-top: 60px;
     width: 33%;
-    float: right;
+    line-height: 30px;
 }
 
 #center-things-bottom {
-    padding-top: 60px;
     width: 33%;
-    margin: 0 auto;
+    margin: 5%;
 }
 
 .left-side-bottom {
-    width: 60%;
-    float: right;
+    width: 100%;
     line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
+    background-color: grey;
+    color: ivory
 }
 
 .right-side-bottom {
-    width: 60%;
-    float: left;
+    width: 100%;
     line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
 }
 
 .right-side-bottom h2 {
-    text-align: right;
+    text-align: left;
+    background-color: orange;
+    line-height: 30px;
 }
 
 .right-side-bottom h3 {
-    text-align: right;
+    text-align: left;
+    background-color: orange;
+    line-height: 30px;
 }
 
 #title-cuisine {
@@ -613,6 +616,7 @@ hr {
     margin: 10px 0;
     font-size: 250%;
     background-color: orange;
+    width: 100%;
 }
 
 #food-circle {
@@ -624,6 +628,9 @@ hr {
     border-width: 5px;
     border-radius: 50%;
     margin: 0 auto;
+    display: inherit;
+    align-content: baseline;
+
 }
 
 #food-image {
@@ -635,7 +642,9 @@ hr {
 #cuisine h1 {
     border-bottom: 2px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
+    width: 100%;
 }
+
 
 /* Contact us page */
 
@@ -775,7 +784,7 @@ hr {
     text-align: center;
     padding-top: 0;
     margin-bottom: 15px;
-   
+
 }
 
 .sub-fact h2 {
@@ -823,9 +832,8 @@ hr {
 
 /* Things To Do*/
 
+
 #things-to-do {
-    width: 80%;
-    height: 1200px;
     margin: 0 auto;
     padding-bottom: 2px;
 }
@@ -865,8 +873,8 @@ hr {
 }
 
 #cuisine {
-    width: 80%;
-    height: 1200px;
+    height: fit-content;
+    width: 100%;
     margin: 0 auto;
     padding-top: 2px;
     font-size: 95%;
@@ -885,20 +893,30 @@ hr {
     padding-bottom: 10px;
     font-size: 30px;
     background-color: white;
-    clear: both;
+}
+
+.left-side-bottom,
+.right-side-bottom {
+    padding-top: 5px;
+}
+
+.right-side-bottom,
+.left-side-bottom {
+    padding-top: 2%;
+    margin-top: 2%;
 }
 
 #left-things-bottom,
 #right-things-bottom {
     width: 100%;
-    float: left;
-    padding: 0;
+    float: inline-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #center-things-bottom {
     clear: both;
     width: 100%;
-    float: left;
     padding: 0;
     margin-bottom: 50px;
     padding-bottom: 2px;
@@ -1046,7 +1064,7 @@ hr {
         margin-top: 10%;
         clear: both;
     }
-
+    
     #cover-text {
         font-size: 40%;
         height: 10%;
@@ -1135,7 +1153,7 @@ hr {
         display: inline-flex;
         flex-wrap: wrap;
     }
-    
+
     .sub-fact {
         border: 2px solid orange;
         flex-direction: row;
@@ -1147,7 +1165,7 @@ hr {
         text-align: center;
         color: ivory;
     }
-    
+
     .sub-fact p {
         font-size: 12px;
         padding: 0 1rem;
@@ -1156,13 +1174,6 @@ hr {
         color: white;
         justify-content: center;
     }
-
-    /* .item-1 {
-        display: flex;
-        height: 500px;
-        flex-direction: row;
-    } */
-
 
     /*How To Get There*/
 
@@ -1184,7 +1195,6 @@ hr {
 
     #left-side {
         position: relative;
-
     }
 
     #left-side-content h3 {
@@ -1300,7 +1310,7 @@ hr {
 
     #title {
         margin-bottom: 10px;
-        margin-top: 80px;
+        margin-top: 100px;
         border-bottom: orange solid 3px;
         border-top: orange solid 3px;
         padding-top: 10px;
@@ -1312,6 +1322,8 @@ hr {
 
     #things-to-do {
         font-size: 70%;
+        display: inline;
+
     }
 
     #turtle-circle {
@@ -1327,11 +1339,8 @@ hr {
 
     #title-cuisine {
         margin-bottom: 50px;
-        margin-top: 50px;
         border-bottom: orange solid 3px;
         border-top: orange solid 3px;
-        padding-top: 10px;
-        padding-bottom: 10px;
         font-size: 20px;
         background-color: white;
         clear: both;
@@ -1341,8 +1350,16 @@ hr {
         width: 80%;
         height: 1200px;
         margin: 0 auto;
-        padding-top: 2px;
-        font-size: 70%;
+        padding-top: 2px font-size 70%;
+        display: inline;
+        clear: both;
+    }
+
+    .left-side-bottom .right-side-bottom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     #food-circle {

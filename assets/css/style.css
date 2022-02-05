@@ -16,7 +16,7 @@ body {
 /* headings and logo*/
 
 h1,
-h2 {
+h3 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     color: #2e3935;
@@ -71,7 +71,7 @@ h2 {
 }
 
 #cover-text,
-#cover-text h2 {
+#cover-text h3 {
     color: rgb(51, 50, 50);
     font-size: 150%;
     text-align: center;
@@ -154,7 +154,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-side-info h2 {
+.right-side-info h3 {
     text-align: right;
 }
 
@@ -177,18 +177,6 @@ hr {
 
 .center-side-info p {
     font-size: 15px;
-}
-
-/*Contact us Page*/
-
-#contact-us {
-    height: 800px;
-}
-
-#contact-us-title {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 250%
 }
 
 /* footer */
@@ -220,7 +208,7 @@ footer {
 /*About Gambia*/
 
 .about-gambia-top {
-    height: auto;
+    max-height: fit-content;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
@@ -245,6 +233,9 @@ footer {
     float: left;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content:space-between;
 }
 
 .sub-fact {
@@ -253,26 +244,28 @@ footer {
     width: auto;
     float: left;
     padding: 10px 10px 10px 10px;
-    /* border: 2px solid rgba(232, 148, 21, 0.83); */
+    border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
 }
 
-.sub-fact h2 {
+.facts h2 {
     position: relative;
+    border-bottom: 3px solid ivory;
     color: ivory;
-    padding: 10px 10px 10px 10px;
+    padding: 2%;
     font-size: 20px;
-    border-bottom: 3px solid;
 }
 
-.sub-fact p {
+.facts p {
     position: relative;
     color: ivory;
-    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    padding-top: 10px;
+    border-spacing: 3px;
+    background-color: grey;
 }
 
 .sub-fact div {
-    height: 400px;
     width: 20%;
     float: left;
     padding: 20px 20px 10px 20px;
@@ -284,25 +277,27 @@ footer {
 /*How To Get There*/
 
 #how-to-get {
-    height: 400px;
-    /* margin-top: 5%; */
+    height: 250px;
+    margin-top: 5%;
     text-align: center;
-    /* padding: 5px; */
-    font-size: 120%;
-
+    padding: 5px;
 }
 
-#how-to-title {
-    margin-bottom: 3%;
+#how-to-get h2 {
     border-top: orange solid 6px;
     border-bottom: orange solid 6px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 80px;
+    text-transform: uppercase;
 }
 
 #left-side {
     width: 30%;
     float: left;
+    margin: 2px 0;
+    display: contents;
+
 }
 
 #right-side {
@@ -313,56 +308,56 @@ footer {
 #center-side {
     width: 30%;
     margin: 0 auto;
-}
-
-#left-side-content {
-    width: 95%;
-    float: right;
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 40px;
-}
-
-#hr {
-    border-top: 2px solid #3c3c3c;
-    width: 100%;
-    margin: 2px;
-}
-
-#right-side-content {
-    width: 95%;
-    float: left;
-    line-height: 15px;
-    clear: both;
-    margin-bottom: 40px;
+    border: 3px solid green;
 }
 
 #left-side-content p {
-    padding-top: 5%;
-    margin-top: 5%;
     text-align: left;
-    font-size: 75%;
+    font-size: 100%;
     border-bottom: orange solid 5px;
+    text-align: center;
+}
+
+.plane {
+    font-size: 150%;
+    padding-left: 5%;
+}
+
+#left-side-content h3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#left-side-content {
+    width: 100%;
+    float: right;
+    line-height: 30px;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#right-side-content {
+    width: 100%;
+    float: right;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+.car {
+    font-size: 150%;
+    padding-left: 5%;
 }
 
 #right-side-content p {
-    padding-top: 5%;
-    margin-top: 5%;
-    text-align: right;
-    font-size: 75%;
+    text-align: center;
+    font-size: 100%;
     border-bottom: orange solid 5px;
-    margin-left: 5%;
-    padding-bottom: 5%;
 }
 
-#left-side-content h2 {
-    padding-top: 10px;
-    margin-top: 5%;
-}
-
-#right-side-content h2 {
-    padding-top: 10px;
-    margin-top: 5%;
+#right-side-content h3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #circle-container {
@@ -375,6 +370,7 @@ footer {
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #circle-cover-bg {
@@ -386,10 +382,12 @@ footer {
 /* Why Gambia */
 
 .reasons {
-    height: auto;
+    max-height: fit-content;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
+    margin-top: 0;
+    border-bottom: 3px solid ivory;
 }
 
 .reasons-facts {
@@ -402,6 +400,7 @@ footer {
 #why-gambia {
     color: ivory;
     font-size: 200%;
+    text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(232, 148, 21, 0.83);
@@ -424,7 +423,7 @@ footer {
 .sub-fact-2 {
     background-color: grey;
     display: grid;
-    width: auto;
+    /* width: auto; */
     float: left;
     padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
@@ -433,6 +432,7 @@ footer {
 
 .reasons-facts h2 {
     position: relative;
+    border-bottom: 3px solid ivory;
     color: ivory;
     padding: 2%;
     font-size: 20px;
@@ -442,7 +442,8 @@ footer {
     position: relative;
     color: ivory;
     font-size: 15px;
-    padding-top: 25px;
+    padding-top: 10px;
+    border-spacing: 3px;
     background-color: grey;
 }
 
@@ -459,8 +460,15 @@ footer {
 /* Things To Do */
 
 #things-to-do {
-    height: 1000px;
+    max-height: fit-content;
     width: 100%;
+}
+
+h1 #things-to-do {
+    border-bottom: 5px solid rgba(232, 148, 21, 0.83);
+    padding-bottom: 2%;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 hr {
@@ -504,7 +512,7 @@ hr {
     color: ivory
 }
 
-.right-side h2 {
+.right-side h3 {
     text-align: left;
     color: ivory;
     width: 100%;
@@ -539,16 +547,10 @@ hr {
     border-radius: 50%;
 }
 
-#things-to-do h1 {
-    border-bottom: 5px solid rgba(232, 148, 21, 0.83);
-    padding-bottom: 2%;
-    width: 100%;
-}
-
 /* Cuisine & Culture*/
 
 #cuisine {
-    height: 700px;
+    max-height: fit-content;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -558,7 +560,7 @@ hr {
     width: 100%;
 }
 
-#left-things-bottom h2 {
+#left-things-bottom h3 {
     width: 33%;
     color: ivory;
     line-height: 30px;
@@ -586,7 +588,7 @@ hr {
     line-height: 30px;
 }
 
-.right-side-bottom h2 {
+.right-side-bottom h3 {
     text-align: left;
     background-color: orange;
     line-height: 30px;
@@ -697,19 +699,18 @@ hr {
     }
 
     .facts p {
-        font-size: 12px;
         text-align: center;
         padding-top: 5%;
+        font-size: 15px;
     }
 
-
-    .facts h2 {
+    .sub-fact h3 {
         margin-top: 5%;
         padding-top: 0;
         border-bottom: 2px solid;
-        margin-bottom: 0%;
+        margin-bottom: 5%;
         padding-bottom: 20%;
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
@@ -731,15 +732,6 @@ hr {
 
 }
 
-.sub-fact h2 {
-    margin-top: 5%;
-    padding-top: 0;
-    border-bottom: 2px solid;
-    margin-bottom: 5%;
-    padding-bottom: 20%;
-    font-size: 13px;
-}
-
 #how-to-get {
     height: 1200px;
     margin: 0 auto;
@@ -750,7 +742,7 @@ hr {
     font-size: 60%;
 }
 
-#how-to-get h2 {
+#how-to-get h3 {
     font-size: 150%;
 }
 
@@ -898,9 +890,9 @@ hr {
         text-align: center;
     }
 
-    .left-side-info h2,
-    .right-side-info h2,
-    .center-side-info h2 {
+    .left-side-info h3,
+    .right-side-info h3,
+    .center-side-info h3 {
         width: 100%;
         text-align: center;
         margin: 0 auto;
@@ -924,7 +916,7 @@ hr {
         float: left;
     }
 
-    .sub-fact h2 {
+    .sub-fact h3 {
         font-size: 17px;
         padding-bottom: 10%;
     }
@@ -947,11 +939,11 @@ hr {
         font-size: 35px;
     }
 
-    #left-side-content h2 {
+    #left-side-content h3 {
         float: left;
     }
 
-    #right-side-content h2 {
+    #right-side-content h3 {
         float: left;
         margin-left: 2rem;
     }
@@ -1026,7 +1018,7 @@ hr {
         margin-bottom: 0;
     }
 
-    #left-about h2 {
+    #left-about h3 {
         font-size: 60%;
     }
 
@@ -1036,7 +1028,7 @@ hr {
         margin-left: 0;
     }
 
-    #right-about h2 {
+    #right-about h3 {
         font-size: 60%;
     }
 
@@ -1046,7 +1038,7 @@ hr {
         margin-left: 0;
     }
 
-    #center-about h2 {
+    #center-about h3 {
         font-size: 60%;
     }
 
@@ -1104,7 +1096,7 @@ hr {
         padding-bottom: 10px;
     }
 
-    .sub-fact h2 {
+    .sub-fact h3 {
         font-size: 1rem;
         text-align: center;
         color: ivory;
@@ -1232,7 +1224,7 @@ hr {
     }
 
 
-    .sub-fact-2 h2 {
+    .sub-fact-2 h3 {
         font-size: 1rem;
         text-align: center;
         color: ivory;

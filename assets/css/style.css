@@ -220,11 +220,10 @@ footer {
 /*About Gambia*/
 
 .about-gambia-top {
-    height: 450px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     padding-top: 1%;
-    border: 4px solid red;
 }
 
 #good-to-know {
@@ -240,17 +239,24 @@ footer {
     /* padding-bottom: 0;
 
     padding-top: 35px; */
-    border: 4px solid violet;
+}
 
+.facts {
+    background-color: grey;
+    display: flex;
+    height: 360px;
+    float: left;
+    padding: 30px 30px 0 30px;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
 }
 
 .sub-fact {
     background-color: grey;
-    height: 700px;
+    display: grid;
     width: 20%;
     float: left;
     padding: 30px 30px 0 30px;
-    text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
 }
@@ -267,8 +273,6 @@ footer {
     color: ivory;
     font-size: 15px;
     padding-top: 50px;
-    border: 4px solid grey;
-
 }
 
 .sub-fact div {
@@ -279,13 +283,12 @@ footer {
     text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
-    border: 4px solid blue;
 }
 
 /*How To Get There*/
 
 #how-to-get {
-    height: 600px;
+    height: 400px;
     /* margin-top: 5%; */
     text-align: center;
     padding: 5px;
@@ -386,12 +389,11 @@ footer {
 
 /* Why Gambia */
 
-#reasons {
-    height: 500px;
+.reasons {
+    height: auto;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    padding-top: 1%;
 }
 
 
@@ -412,14 +414,16 @@ footer {
 
     width: 100%;
     height: 80px;
-    border: 4px solid violet;
 }
 
-.reasons {
+.sub-fact-2 {
     background-color: grey;
-    height: 390px;
-    text-align: start;
-    width: 100%;
+    height: 200px;
+/*     width: 20%; */
+    float: left;
+    padding: 30px 30px 0 30px;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
 }
 
 .reasons-facts h2 {
@@ -437,11 +441,11 @@ footer {
     background-color: grey;
 }
 
-.reasons-facts div {
-    height: 300px;
+.sub-fact-2 div {
+    height: 400px;
     width: 20%;
     float: left;
-    padding: 30px 30px 0 30px;
+    padding: 20px 20px 10px 20px;
     text-align: center;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
@@ -722,19 +726,20 @@ hr {
         float: left;
     }
 
-    .about-gambia-top h2 {
-        font-size: 14px;
-        padding: 10px 0 10px 0;
+    .facts p {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 5%;
     }
 
-    .about-gambia-top p {
-        font-size: 15px;
-    }
 
-    .facts .sub-fact h2 {
-        margin-top: 0;
+    .facts h2 {
+        margin-top: 5%;
         padding-top: 0;
         border-bottom: 2px solid;
+        margin-bottom: 0%;
+        padding-bottom: 20%;
+        font-size: 15px;
     }
 
 
@@ -930,41 +935,24 @@ hr {
 
     /* About Gambia - Good to know*/
 
-    /* .about-gambia-top {
-        height: 400px;
-    } */
 
     .about-gambia-top>div {
         width: 100%;
         clear: both;
-        height: 600px;
         padding: 0;
         float: left;
     }
 
-    .about-gambia-top h2 {
-        font-size: 25px;
+    .sub-fact h2 {
+        font-size: 17px;
+        padding-bottom: 10%;
     }
 
-    .about-gambia-top h3 {
-        font-size: 12px;
-        padding: 0;
+    .sub-fact p {
+        padding-top: 20px;
+        font-size: 10px;
         margin: 0;
         width: 100%;
-        font-size: 20%;
-    }
-
-    #good-to-know {
-        height: 10%;
-        font-size: 20px;
-    }
-
-    #facts h2 {
-        font-size: 10px;
-    }
-
-    #facts h3 {
-        font-size: 10px;
     }
 
     /* How To Get There */
@@ -978,9 +966,18 @@ hr {
         font-size: 35px;
     }
 
-       /* Reasons to Discover Gambia */
+    #left-side-content h2 {
+        float: left;
+    }
 
-       .reasons>div {
+    #right-side-content h2 {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    /* Reasons to Discover Gambia */
+
+    .reasons>div {
         width: 100%;
         clear: both;
         padding: 0;
@@ -1099,10 +1096,7 @@ hr {
 
 
     #good-to-know {
-        margin-top: 5px;
-        height: 10px;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+        margin: 0;
     }
 
     #good-to-know h1 {
@@ -1110,6 +1104,7 @@ hr {
         text-transform: uppercase;
         background-color: orange;
         color: ivory;
+        padding: 1rem 0;
         margin: 0;
     }
 
@@ -1118,9 +1113,10 @@ hr {
     }
 
     .facts {
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
-        max-height: max-content;
+        /* max-height: max-content; */
+        
     }
 
     .sub-fact {
@@ -1129,13 +1125,12 @@ hr {
         flex-direction: row;
     }
 
-
     .sub-fact h2 {
         font-size: 1rem;
         text-align: center;
         color: ivory;
     }
-
+    
     .sub-fact p {
         font-size: 12px;
         padding: 0 1rem;
@@ -1144,6 +1139,12 @@ hr {
         color: white;
         justify-content: center;
     }
+
+    /* .item-1 {
+        display: flex;
+        height: 500px;
+        flex-direction: row;
+    } */
 
 
     /*How To Get There*/

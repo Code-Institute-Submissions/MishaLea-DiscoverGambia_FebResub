@@ -275,7 +275,7 @@ footer {
 /*How To Get There*/
 
 #how-to-get {
-    height: 250px;
+    height: 240px;
     margin-top: 5%;
     text-align: center;
     padding: 5px;
@@ -319,7 +319,8 @@ footer {
 .plane {
     font-size: 120%;
     padding-right: 5%;
-    width: 20px;;
+    width: 20px;
+    ;
 }
 
 #left-side-content p {
@@ -456,66 +457,63 @@ footer {
 /* Things To Do */
 
 #things-to-do {
-    max-height: fit-content;
-    width: 100%;
-}
-
-#title {
-    border-bottom: 5px solid rgba(232, 148, 21, 0.83);
-    padding-bottom: 2%;
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 20px 0;
-    font-size: 50px;
-    background-color: orange;
+    height: 700px;
+    padding-top: 5%;
 }
 
 hr {
     border-top: 3px double orange;
     width: 100%;
+    margin: 5px;
 }
 
-.left-side {
-    width: 110%;
-    line-height: 30px;
-
-    margin-bottom: 50px;
-    background-color: grey;
-    color: ivory
+#left-things {
+    padding-top: 60px;
+    width: 33%;
+    float: left;
 }
-
-.left-side h3 {
-    text-align: left;
-    color: ivory;
-    width: 100%;
-    background-color: grey;
-}
-
 
 #right-things {
-    width: 100%;
+    padding-top: 60px;
+    width: 33%;
+    float: right;
 }
 
 #center-things {
     padding-top: 60px;
+    width: 33%;
     margin: 0 auto;
 }
 
-.right-side {
-    width: 110%;
+.left-side {
+    width: 60%;
+    float: right;
     line-height: 30px;
-
+    clear: both;
     margin-bottom: 50px;
-    background-color: grey;
-    color: ivory
+}
+
+.right-side {
+    width: 60%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side h2 {
+    text-align: right;
 }
 
 .right-side h3 {
-    text-align: left;
-    color: ivory;
-    width: 100%;
-    background-color: grey;
+    text-align: right;
+}
+
+#title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 250%;
+    background-color: orange;
 }
 
 #turtle-circle {
@@ -535,63 +533,71 @@ hr {
     border-radius: 50%;
 }
 
+#things-to-do h1 {
+    border-bottom: 2px solid rgba(232, 148, 21, 0.83);
+    padding-bottom: 2%;
+}
+
 /* Cuisine & Culture*/
 
 #cuisine {
-    height: 200px;
+    height: 800px;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: white;
 }
 
 hr {
-    border-top: 5px double ivory;
+    border-top: 3px double orange;
     width: 100%;
+    margin: 5px;
+}
+
+#left-things-bottom {
+    padding-top: 60px;
+    width: 33%;
+    float: left;
 }
 
 #right-things-bottom {
+    padding-top: 60px;
     width: 33%;
-    line-height: 30px;
+    float: right;
 }
 
 #center-things-bottom {
+    padding-top: 60px;
     width: 33%;
-    margin: 5%;
+    margin: 0 auto;
 }
 
-.left-side-bottom h2 {
-    width: 100%;
+.left-side-bottom {
+    width: 60%;
+    float: right;
     line-height: 30px;
-    background-color: orange;
-    color: #2e3935;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-bottom {
+    width: 60%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 .right-side-bottom h2 {
-    width: 100%;
-    line-height: 30px;
-    background-color: orange;
-    color: #2e3935;
-}
-
-.left-side-bottom h3 {
-    width: 100%;
-    line-height: 30px;
-    background-color: orange;
-    color: #2e3935;
+    text-align: right;
 }
 
 .right-side-bottom h3 {
-    width: 100%;
-    line-height: 30px;
-    background-color: orange;
-    color: #2e3935;
+    text-align: right;
 }
+
 #title-cuisine {
     text-align: center;
     margin: 10px 0;
-    font-size: 100px;
-    width: 100%;
-    text-transform: uppercase;
+    font-size: 250%;
 }
 
 #food-circle {
@@ -603,9 +609,6 @@ hr {
     border-width: 5px;
     border-radius: 50%;
     margin: 0 auto;
-    display: inherit;
-    align-content: baseline;
-
 }
 
 #food-image {
@@ -617,9 +620,7 @@ hr {
 #cuisine h1 {
     border-bottom: 2px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
-    width: 100%;
 }
-
 
 /* Media queries*/
 
@@ -986,6 +987,7 @@ h2 #title-cuisine {
 
     nav {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     #logo {
@@ -1058,10 +1060,12 @@ h2 #title-cuisine {
         border: none;
     }
 
+
     .social-networks {
-        font-size: 5px;
-        letter-spacing: 5px;
+        font-size: 10px;
+        letter-spacing: 15px;
         word-spacing: 5px;
+        margin-top: 40px;
     }
 
     footer {
@@ -1072,9 +1076,9 @@ h2 #title-cuisine {
 
     /* About Gambia - Good to know*/
 
-
-    #good-to-know {
-        margin: 0;
+    .about-gambia-top {
+        padding-top: 5%;
+        margin-top: 35px;
     }
 
     #good-to-know h1 {
@@ -1083,35 +1087,37 @@ h2 #title-cuisine {
         background-color: orange;
         color: ivory;
         padding: 1rem 0;
-    }
-
-    .about-gambia-top {
-        padding: 0;
+        margin-top: 10px;
     }
 
     .facts {
+        display: flex;
         height: 1100px;
-        display: inline-flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        padding: 0 0 0 0;
     }
 
     .sub-fact {
         border: 2px solid orange;
         flex-direction: row;
-        padding-bottom: 10px;
     }
 
-    .sub-fact h3 {
+
+    .facts h2 {
         font-size: 1rem;
         text-align: center;
         color: ivory;
+        border-bottom: 3px solid;
+        margin-bottom: 5%;
+        padding-bottom: 0;
     }
 
-    .sub-fact p {
+    .facts p {
         font-size: 12px;
         padding: 0 1rem;
         line-height: 18px;
-        text-align: justify;
+        text-align: center;
         color: white;
         justify-content: center;
     }
@@ -1126,6 +1132,7 @@ h2 #title-cuisine {
         padding: 1rem 0;
         margin: 0;
         text-transform: uppercase;
+        font-size: -5%;
     }
 
     #how-to-get {
@@ -1139,10 +1146,9 @@ h2 #title-cuisine {
     }
 
     #left-side-content h3 {
-        background-color: rgba(59, 19, 39, 0.6);
         text-align: center;
         text-transform: uppercase;
-        color: ivory;
+        color: #2e3935;
         padding: 1rem 0;
         margin: 0;
     }
@@ -1157,6 +1163,7 @@ h2 #title-cuisine {
     #center-side {
         position: relative;
         bottom: 250px;
+        margin-top: 10%;
     }
 
     #circle-cover-bg {
@@ -1174,7 +1181,7 @@ h2 #title-cuisine {
         border-width: 3px;
         border-radius: 50%;
         margin: 0 auto;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     #right-side {
@@ -1183,10 +1190,9 @@ h2 #title-cuisine {
     }
 
     #right-side-content h3 {
-        background-color: rgba(59, 19, 39, 0.6);
         text-align: center;
         text-transform: uppercase;
-        color: ivory;
+        color: #2e3935;
         padding: 1rem 0;
         margin: 0;
     }
@@ -1201,13 +1207,13 @@ h2 #title-cuisine {
     /*Reasons Why Section on About Gambia Page */
 
     #reasons {
-        padding: 0;
+        padding-top: 5%;
         margin-top: 35px;
     }
 
 
     #why-gambia {
-        font-size: 1rem;
+        font-size: 40px;
         text-align: center;
         text-transform: uppercase;
         background-color: orange;

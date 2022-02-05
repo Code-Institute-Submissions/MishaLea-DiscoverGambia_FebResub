@@ -978,41 +978,19 @@ hr {
         font-size: 35px;
     }
 
-    /* Reasons to Discover Gambia */
+       /* Reasons to Discover Gambia */
 
-    #reasons>div {
+       .reasons>div {
         width: 100%;
         clear: both;
-        height: 700px;
         padding: 0;
         float: left;
     }
 
-    #reasons {
-        height: 400px;
-    }
-
-    #reasons h2 {
-        font-size: 25px;
-    }
-
-    #reasons h3 {
-        font-size: 12px;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        font-size: 20%;
-    }
-
-    .reasons-facts h2 {
-        font-size: 10px;
-    }
-
     .reasons-facts p {
         font-size: 10px;
+        line-height: 1rem
     }
-
-
 
 }
 

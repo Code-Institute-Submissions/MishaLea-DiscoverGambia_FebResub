@@ -254,21 +254,22 @@ footer {
 .sub-fact {
     background-color: grey;
     display: grid;
-    width: 20%;
+    width: auto;
     float: left;
     padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
 }
 
-.facts h2 {
+.sub-fact h2 {
     position: relative;
     color: ivory;
     padding: 2%;
     font-size: 20px;
+    border-bottom: 3px solid;
 }
 
-.facts p {
+.sub-fact p {
     position: relative;
     color: ivory;
     font-size: 15px;
@@ -396,6 +397,12 @@ footer {
     padding-top: 1%;
 }
 
+.reasons-facts {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1%;
+}
 
 /* #reasons-why {
     background-size: cover;
@@ -416,10 +423,20 @@ footer {
     height: 80px;
 }
 
+.reasons-facts {
+    background-color: grey;
+    display: flex;
+    height: 360px;
+    float: left;
+    padding: 30px 30px 0 30px;
+    border: 2px solid rgba(232, 148, 21, 0.83);
+    box-sizing: border-box;
+}
+
 .sub-fact-2 {
     background-color: grey;
-    height: 200px;
-/*     width: 20%; */
+    display: grid;
+    width: auto;
     float: left;
     padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
@@ -753,17 +770,19 @@ hr {
     float: left;
 }
 
-.reasons-facts p {
+.sub-fact-2 p {
     font-size: 12px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 0;
+    margin-bottom: 15px;
+   
 }
 
-.reasons-facts h2 {
+.sub-fact h2 {
     margin-top: 5%;
     padding-top: 0;
     border-bottom: 2px solid;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     padding-bottom: 20%;
     font-size: 13px;
 }
@@ -1105,7 +1124,6 @@ hr {
         background-color: orange;
         color: ivory;
         padding: 1rem 0;
-        margin: 0;
     }
 
     .about-gambia-top {
@@ -1113,16 +1131,15 @@ hr {
     }
 
     .facts {
+        height: 1100px;
         display: inline-flex;
-        flex-direction: column;
-        /* max-height: max-content; */
-        
+        flex-wrap: wrap;
     }
-
+    
     .sub-fact {
         border: 2px solid orange;
-        background-color: rgba(59, 19, 39, 0.6);
         flex-direction: row;
+        padding-bottom: 10px;
     }
 
     .sub-fact h2 {
@@ -1161,6 +1178,7 @@ hr {
 
     #how-to-get {
         margin-top: 5px;
+        height: 500px;
 
     }
 
@@ -1249,13 +1267,13 @@ hr {
 
     .reasons-facts {
         display: flex;
-        flex-direction: column;
-        max-height: max-content;
+        height: 1100px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .sub-fact-2 {
         border: 2px solid orange;
-        background-color: rgba(59, 19, 39, 0.6);
         flex-direction: row;
     }
 
@@ -1264,17 +1282,19 @@ hr {
         font-size: 1rem;
         text-align: center;
         color: ivory;
+        border-bottom: 3px solid;
+        margin-bottom: 5%;
+        padding-bottom: 0;
     }
 
     .sub-fact-2 p {
         font-size: 12px;
         padding: 0 1rem;
         line-height: 18px;
-        text-align: justify;
+        text-align: center;
         color: white;
         justify-content: center;
     }
-
 
     /* Things to do */
 

@@ -73,7 +73,7 @@ h3 {
 #cover-text,
 #cover-text h3 {
     color: rgb(51, 50, 50);
-    font-size: 150%;
+    font-size: 100%;
     text-align: center;
 }
 
@@ -231,11 +231,9 @@ footer {
     display: flex;
     height: 360px;
     float: left;
+    padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
     box-sizing: border-box;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content:space-between;
 }
 
 .sub-fact {
@@ -308,33 +306,32 @@ footer {
 #center-side {
     width: 30%;
     margin: 0 auto;
-    border: 3px solid green;
 }
 
-#left-side-content p {
-    text-align: left;
-    font-size: 100%;
-    border-bottom: orange solid 5px;
-    text-align: center;
-}
-
-.plane {
-    font-size: 150%;
-    padding-left: 5%;
-}
-
-#left-side-content h3 {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
 
 #left-side-content {
     width: 100%;
     float: right;
     line-height: 30px;
     margin-bottom: 4px;
+}
+
+.plane {
+    font-size: 120%;
+    padding-right: 5%;
+    width: 20px;;
+}
+
+#left-side-content p {
     text-align: center;
-    padding-bottom: 2%;
+    font-size: 100%;
+    border-bottom: orange solid 5px;
+}
+
+#left-side-content h3 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-size: 75%;
 }
 
 #right-side-content {
@@ -345,8 +342,8 @@ footer {
 }
 
 .car {
-    font-size: 150%;
-    padding-left: 5%;
+    font-size: 120%;
+    padding-right: 5%;
 }
 
 #right-side-content p {
@@ -423,7 +420,6 @@ footer {
 .sub-fact-2 {
     background-color: grey;
     display: grid;
-    /* width: auto; */
     float: left;
     padding: 30px 30px 0 30px;
     border: 2px solid rgba(232, 148, 21, 0.83);
@@ -464,11 +460,15 @@ footer {
     width: 100%;
 }
 
-h1 #things-to-do {
+#title {
     border-bottom: 5px solid rgba(232, 148, 21, 0.83);
     padding-bottom: 2%;
     width: 100%;
     text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    background-color: orange;
 }
 
 hr {
@@ -476,31 +476,30 @@ hr {
     width: 100%;
 }
 
-#left-things {
-    padding-top: 60px;
-    width: 100%;
+.left-side {
+    width: 110%;
+    line-height: 30px;
+
+    margin-bottom: 50px;
+    background-color: grey;
+    color: ivory
 }
 
-#title {
+.left-side h3 {
+    text-align: left;
+    color: ivory;
     width: 100%;
+    background-color: grey;
 }
+
 
 #right-things {
-
     width: 100%;
 }
 
 #center-things {
     padding-top: 60px;
     margin: 0 auto;
-}
-
-.left-side {
-    width: 100%;
-    line-height: 30px;
-
-    margin-bottom: 50px;
-    background-color: orange;
 }
 
 .right-side {
@@ -516,18 +515,7 @@ hr {
     text-align: left;
     color: ivory;
     width: 100%;
-}
-
-.right-side h3 {
-    text-align: left;
-    width: 100%;
-}
-
-#title {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 250%;
-    background-color: orange;
+    background-color: grey;
 }
 
 #turtle-circle {
@@ -550,20 +538,15 @@ hr {
 /* Cuisine & Culture*/
 
 #cuisine {
-    max-height: fit-content;
+    height: 200px;
     padding-top: 5%;
     padding-bottom: 5%;
+    background-color: white;
 }
 
 hr {
-    border-top: 3px double orange;
+    border-top: 5px double ivory;
     width: 100%;
-}
-
-#left-things-bottom h3 {
-    width: 33%;
-    color: ivory;
-    line-height: 30px;
 }
 
 #right-things-bottom {
@@ -576,36 +559,39 @@ hr {
     margin: 5%;
 }
 
-.left-side-bottom {
+.left-side-bottom h2 {
     width: 100%;
     line-height: 30px;
-    background-color: grey;
-    color: ivory
+    background-color: orange;
+    color: #2e3935;
 }
 
-.right-side-bottom {
+.right-side-bottom h2 {
     width: 100%;
     line-height: 30px;
+    background-color: orange;
+    color: #2e3935;
+}
+
+.left-side-bottom h3 {
+    width: 100%;
+    line-height: 30px;
+    background-color: orange;
+    color: #2e3935;
 }
 
 .right-side-bottom h3 {
-    text-align: left;
-    background-color: orange;
+    width: 100%;
     line-height: 30px;
-}
-
-.right-side-bottom h3 {
-    text-align: left;
     background-color: orange;
-    line-height: 30px;
+    color: #2e3935;
 }
-
 #title-cuisine {
     text-align: center;
     margin: 10px 0;
-    font-size: 250%;
-    background-color: orange;
+    font-size: 100px;
     width: 100%;
+    text-transform: uppercase;
 }
 
 #food-circle {
@@ -789,8 +775,6 @@ hr {
     border-top: orange solid 3px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 30px;
-    background-color: white;
     clear: both;
 }
 
@@ -820,7 +804,7 @@ hr {
     font-size: 70%;
 }
 
-#title-cuisine {
+h2 #title-cuisine {
     margin-bottom: 50px;
     margin-top: 50px;
     border-bottom: orange solid 3px;
@@ -939,13 +923,34 @@ hr {
         font-size: 35px;
     }
 
-    #left-side-content h3 {
-        float: left;
-    }
-
-    #right-side-content h3 {
+    #left-side-content p {
         float: left;
         margin-left: 2rem;
+    }
+
+    #left-side-content h3 {
+        display: inline;
+        margin-left: 15%;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+
+
+    #right-side-content p {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    #left-side-content h3 {
+        display: inline;
+        margin-left: -4%;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: wrap;
     }
 
     /* Reasons to Discover Gambia */

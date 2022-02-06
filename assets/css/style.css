@@ -282,8 +282,8 @@ footer {
 }
 
 #how-to-get h2 {
-    border-top: orange solid 6px;
-    border-bottom: orange solid 6px;
+    border-top: rgba(232, 148, 21, 0.83) solid 6px;
+    border-bottom: rgba(232, 148, 21, 0.83) solid 6px;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 80px;
@@ -326,7 +326,7 @@ footer {
 #left-side-content p {
     text-align: center;
     font-size: 100%;
-    border-bottom: orange solid 5px;
+    border-bottom: rgba(232, 148, 21, 0.83) solid 5px;
 }
 
 #left-side-content h3 {
@@ -350,7 +350,7 @@ footer {
 #right-side-content p {
     text-align: center;
     font-size: 100%;
-    border-bottom: orange solid 5px;
+    border-bottom: rgba(232, 148, 21, 0.83) solid 5px;
 }
 
 #right-side-content h3 {
@@ -363,7 +363,7 @@ footer {
     height: 300px;
     padding: 30px;
     border-style: dashed;
-    border-color: orange;
+    border-color: rgba(232, 148, 21, 0.83);
     border-width: 3px;
     border-radius: 50%;
     margin: 0 auto;
@@ -462,7 +462,7 @@ footer {
 }
 
 hr {
-    border-top: 3px double orange;
+    border-top: 3px double rgba(232, 148, 21, 0.83);
     width: 100%;
     margin: 5px;
 }
@@ -513,7 +513,7 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-size: 250%;
-    background-color: orange;
+    background-color: rgba(232, 148, 21, 0.83);
 }
 
 #turtle-circle {
@@ -521,7 +521,7 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: dotted;
-    border-color: orange;
+    border-color: rgba(232, 148, 21, 0.83);
     border-width: 5px;
     border-radius: 50%;
     margin: 0 auto;
@@ -547,7 +547,7 @@ hr {
 }
 
 hr {
-    border-top: 3px double orange;
+    border-top: 3px double rgba(232, 148, 21, 0.83);
     width: 100%;
     margin: 5px;
 }
@@ -605,7 +605,7 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: dotted;
-    border-color: orange;
+    border-color: rgba(232, 148, 21, 0.83);
     border-width: 5px;
     border-radius: 50%;
     margin: 0 auto;
@@ -736,7 +736,7 @@ hr {
 #how-to-title {
     margin-bottom: 1px;
     margin-bottom: 1px;
-    background-color: orange;
+    background-color: rgba(232, 148, 21, 0.83);
 }
 
 #left-side,
@@ -772,8 +772,8 @@ hr {
 #title {
     margin-bottom: 10px;
     margin-top: 50px;
-    border-bottom: orange solid 3px;
-    border-top: orange solid 3px;
+    border-bottom: rgba(232, 148, 21, 0.83) solid 3px;
+    border-top: rgba(232, 148, 21, 0.83) solid 3px;
     padding-top: 10px;
     padding-bottom: 10px;
     clear: both;
@@ -808,8 +808,8 @@ hr {
 h2 #title-cuisine {
     margin-bottom: 50px;
     margin-top: 50px;
-    border-bottom: orange solid 3px;
-    border-top: orange solid 3px;
+    border-bottom: rgba(232, 148, 21, 0.83) solid 3px;
+    border-top: rgba(232, 148, 21, 0.83) solid 3px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 30px;
@@ -918,7 +918,7 @@ h2 #title-cuisine {
     #how-to-title {
         margin-bottom: 1px;
         margin-bottom: 1px;
-        background-color: orange;
+        background-color: rgba(232, 148, 21, 0.83);
         padding-top: 1px;
         padding-bottom: 1px;
         font-size: 35px;
@@ -1084,7 +1084,7 @@ h2 #title-cuisine {
     #good-to-know h1 {
         text-align: center;
         text-transform: uppercase;
-        background-color: orange;
+        background-color: rgba(232, 148, 21, 0.83);
         color: ivory;
         padding: 1rem 0;
         margin-top: 10px;
@@ -1099,7 +1099,7 @@ h2 #title-cuisine {
     }
 
     .sub-fact {
-        border: 2px solid orange;
+        border: 2px solid rgba(232, 148, 21, 0.83);
         flex-direction: row;
     }
 
@@ -1125,7 +1125,7 @@ h2 #title-cuisine {
     /*How To Get There*/
 
     #how-to-title {
-        background-color: orange;
+        background-color: rgba(232, 148, 21, 0.83);
         text-align: center;
         text-transform: uppercase;
         color: ivory;
@@ -1177,7 +1177,7 @@ h2 #title-cuisine {
         height: 150px;
         padding: 15px;
         border-style: dashed;
-        border-color: orange;
+        border-color: rgba(232, 148, 21, 0.83);
         border-width: 3px;
         border-radius: 50%;
         margin: 0 auto;
@@ -1216,7 +1216,7 @@ h2 #title-cuisine {
         font-size: 40px;
         text-align: center;
         text-transform: uppercase;
-        background-color: orange;
+        background-color: rgba(232, 148, 21, 0.83);
         color: ivory;
         padding: 1rem 0;
         margin: 0;
@@ -1230,7 +1230,7 @@ h2 #title-cuisine {
     }
 
     .sub-fact-2 {
-        border: 2px solid orange;
+        border: 2px solid rgba(232, 148, 21, 0.83);
         flex-direction: row;
     }
 
@@ -1258,8 +1258,8 @@ h2 #title-cuisine {
     #title {
         margin-bottom: 10px;
         margin-top: 100px;
-        border-bottom: orange solid 3px;
-        border-top: orange solid 3px;
+        border-bottom: rgba(232, 148, 21, 0.83) solid 3px;
+        border-top: rgba(232, 148, 21, 0.83) solid 3px;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 30px;
@@ -1278,7 +1278,7 @@ h2 #title-cuisine {
         height: 200px;
         padding: 30px;
         border-style: dotted;
-        border-color: orange;
+        border-color: rgba(232, 148, 21, 0.83);
         border-width: 5px;
         border-radius: 50%;
         margin: 0 auto;
@@ -1286,8 +1286,8 @@ h2 #title-cuisine {
 
     #title-cuisine {
         margin-bottom: 50px;
-        border-bottom: orange solid 3px;
-        border-top: orange solid 3px;
+        border-bottom: rgba(232, 148, 21, 0.83) solid 3px;
+        border-top: rgba(232, 148, 21, 0.83) solid 3px;
         font-size: 20px;
         background-color: white;
         clear: both;
@@ -1314,7 +1314,7 @@ h2 #title-cuisine {
         height: 200px;
         padding: 30px;
         border-style: dotted;
-        border-color: orange;
+        border-color: rgba(232, 148, 21, 0.83);
         border-width: 5px;
         border-radius: 50%;
         margin: 0 auto;
